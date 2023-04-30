@@ -13,8 +13,30 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::get('permissions', function () {
+    return view('Perimisions');
+});
+
+
+Route::get('userlist', function () {
+    return view('UserList');
+});
+
+Route::get('viewuser', function () {
+    return view('ViewUser');
+});
+
+Route::get('viewrole', function () {
+    return view('ViewRole');
+});
+
+Route::get('rolelist', function () {
+    return view('RoleList');
+});
+
+
 Route::get('/', function () {
-    return view('test');
+    return view('Dashboard');
 });
 
 //Route::group(['prefix' => '/test'], function () {
