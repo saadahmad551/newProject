@@ -5,7 +5,7 @@ var hostUrl = "assets/";
 <!--begin::Global Javascript Bundle(used by all pages)-->
 <script src="{{ asset('static/plugins/global/plugins.bundle.js') }}"></script>
 <script src="{{ asset('static/js/scripts.bundle.js') }}"></script>
-<script src="{{ asset('static/plugins/custom/datatables/datatables.bundle.js') }}"></script>
+<!-- <script src="{{ asset('static/plugins/custom/datatables/datatables.bundle.js') }}"></script> -->
 <!--end::Global Javascript Bundle-->
 <!--begin::Page Vendors Javascript(used by all pages)-->
 
@@ -14,23 +14,20 @@ var hostUrl = "assets/";
 
 
 <!--begin::Page Custom Javascript(used by UserList )-->
-<script src="{{ asset('static/js/widgets.bundle.js') }}"></script>
-
-<script src="{{ asset('static/js/custom/apps/user-management/users/list/table.js') }}"></script>
+<!-- <script src="{{ asset('static/js/custom/apps/user-management/users/list/table.js') }}"></script>
 <script src="{{ asset('static/js/custom/apps/user-management/users/list/export-users.js') }}"></script>
-<script src="{{ asset('static/js/custom/apps/user-management/users/list/add.js') }}"></script>
+<script src="{{ asset('static/js/custom/apps/user-management/users/list/add.js') }}"></script> -->
 <script src="{{ asset('static/js/custom/widgets.js') }}"></script>
-<script src="{{ asset('static/js/Custum/apps/chat/chat.js') }}"></script>
-<script src="{{ asset('static/js/custom/utilities/modals/upgrade-plan.js') }}"></script>
+<!-- <script src="{{ asset('static/js/custom/utilities/modals/upgrade-plan.js') }}"></script> -->
 <script src="{{ asset('static/js/custom/utilities/modals/create-app.js') }}"></script>
 <script src="{{ asset('static/js/custom/utilities/modals/users-search.js') }}"></script>
 
 <!--begin::Page Custom Javascript(used by ViewUser)-->
-<script src="{{ asset('static/js/custom/apps/user-management/users/view/update-details.js') }}"></script>
+<!-- <script src="{{ asset('static/js/custom/apps/user-management/users/view/update-details.js') }}"></script> -->
 <script src="{{ asset('static/js/custom/apps/user-management/users/view/view.js') }}"></script>
-<script src="{{ asset('static/js/custom/apps/user-management/users/view/add-task.js') }}"></script>
-<script src="{{ asset('static/js/custom/apps/user-management/users/view/update-details.js') }}"></script>
-<script src="{{ asset('static/js/custom/apps/user-management/users/view/update-role.js') }}"></script>
+<!-- <script src="{{ asset('static/js/custom/apps/user-management/users/view/add-task.js') }}"></script> -->
+<!-- <script src="{{ asset('static/js/custom/apps/user-management/users/view/update-details.js') }}"></script> -->
+<!-- <script src="{{ asset('static/js/custom/apps/user-management/users/view/update-role.js') }}"></script> -->
 <script src="{{ asset('static/js/custom/apps/user-management/users/view/add-auth-app.js') }}"></script>
 <script src="{{ asset('static/js/widgets.bundle.js') }}"></script>
 <script src="{{ asset('static/js/custom/apps/chat/chat.js') }}"></script>
@@ -53,8 +50,8 @@ var hostUrl = "assets/";
 
 
 <!--begin::Page Custom Javascript(used by dashboard)-->
-<script src="https://cdn.amcharts.com/lib/4/geodata/worldLow.js"></script>
-<script src="https://cdn.amcharts.com/lib/4/geodata/continentsLow.js"></script>
+<!-- <script src="https://cdn.amcharts.com/lib/4/geodata/worldLow.js"></script> -->
+<!-- <script src="https://cdn.amcharts.com/lib/4/geodata/continentsLow.js"></script> -->
 <script src="https://cdn.amcharts.com/lib/5/index.js"></script>
 <script src="https://cdn.amcharts.com/lib/5/map.js"></script>
 <script src="https://cdn.amcharts.com/lib/5/geodata/worldLow.js"></script>
@@ -67,11 +64,37 @@ var hostUrl = "assets/";
 <script src="{{ asset('static/plugins/global/plugins.bundle.js') }}"></script>
 <script src="{{ asset('plugins/custom/datatables/datatables.bundle.js') }}"></script>
 
-<script src="assets/js/custom/widgets.js"></script>
+
+<!--begin::Page Custom Javascript(used by Sign-up)-->
+<script src="{{ asset('static/js/custom/utilities/modals/create-account.js') }}"></script>
 
 
 
-<script src="assets/plugins/custom/datatables/datatables.bundle.js"></script>
+<script>
+    const countriesSelect = document.getElementById("countries");
+
+fetch("https://restcountries.com/v3.1/all")
+  .then((response) => response.json())
+  .then((data) => {
+    const countries = data.map((country) => ({
+      name: country.name.common,
+      code: country.cca2,
+    }));
+
+    countries.forEach((country) => {
+      const option = document.createElement("option");
+      option.value = country.code;
+      option.text = country.name;
+      if (country.name === "United Arab Emirates") {
+        // Set the default selected option to Dubai
+        option.selected = true;
+      }
+      countriesSelect.appendChild(option);
+    });
+  })
+  .catch((error) => console.log(error));
+</script>
+
 
 <script>
 am5.ready(function() {
@@ -156,85 +179,6 @@ am5.ready(function() {
 }); // end am5.ready()
 </script>
 
-<Script>
-var ctx = document.getElementById('kt_chartjs_2');
 
-// Define colors
-var primaryColor = KTUtil.getCssVariableValue('--bs-primary');
-var dangerColor = KTUtil.getCssVariableValue('--bs-danger');
-
-// Define fonts
-var fontFamily = KTUtil.getCssVariableValue('--bs-font-sans-serif');
-
-// Chart labels
-const labels = ['January', 'February', 'March', 'April', 'May', 'June', 'July'];
-
-// Chart data
-const data = {
-    labels: labels,
-    datasets: [
-        ...
-    ]
-};
-
-// Chart config
-const config = {
-    type: 'bar',
-    data: data,
-    options: {
-        plugins: {
-            title: {
-                display: false,
-            }
-        },
-        responsive: true,
-    },
-    defaults: {
-        global: {
-            defaultFont: fontFamily
-        }
-    }
-};
-
-// Init ChartJS -- for more info, please visit: https://www.chartjs.org/docs/latest/
-var myChart = new Chart(ctx, config);
-</script>
-
-
-<script>
-toastr.options = {
-    "closeButton": true,
-    "debug": false,
-    "newestOnTop": true,
-    "progressBar": true,
-    "positionClass": "toastr-top-right",
-    "preventDuplicates": false,
-    "onclick": null,
-    "showDuration": "300",
-    "hideDuration": "1000",
-    "timeOut": "5000",
-    "extendedTimeOut": "1000",
-    "showEasing": "swing",
-    "hideEasing": "linear",
-    "showMethod": "fadeIn",
-    "hideMethod": "fadeOut"
-};
-@if(Session::has("success"))
-toastr.success("{{ Session::get("
-    success ") }}");
-@endif
-@if(Session::has("error"))
-toastr.error("{{ Session::get("
-    error ") }}");
-@endif
-@if(Session::has("info"))
-toastr.info("{{ Session::get("
-    info ") }}");
-@endif
-@if(Session::has("warning"))
-toastr.warning("{{ Session::get("
-    warning ") }}");
-@endif
-</script>
 <!--end::Page Custom Javascript-->
 <!--end::Javascript-->

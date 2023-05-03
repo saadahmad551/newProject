@@ -35,10 +35,25 @@ Route::get('rolelist', function () {
 });
 
 
-Route::get('/', function () {
+Route::get('/dashboard', function () {
     return view('Dashboard');
 });
 
+
+Route::get('sign-up', function () {
+    return view('sign-up');
+});
+
+
+
+Route::get('/Fleet', function () {
+    return view('Fleet');
+});
+
+
+Route::get('/', function () {
+    return view('Fleet_detail');
+});
 //Route::group(['prefix' => '/test'], function () {
 //    return view('test');
 //

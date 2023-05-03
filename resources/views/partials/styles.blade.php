@@ -12,6 +12,5 @@
 <link href="{{ asset('static/media/logos/favicon.ico') }}" rel="stylesheet" type="text/css" />
 <link rel="canonical" href="https://preview.keenthemes.com/metronic8" />
 <link href="{{ asset('static/css/style.bundle.css') }}" rel="stylesheet" type="text/css" />
-
 		
 

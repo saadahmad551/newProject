@@ -20,7 +20,7 @@
                 <!--begin::Row-->
                 <div class="row gy-5 g-xl-10">
                     <!--begin::Col-->
-                    <div class="col-sm-6 col-xl-5 mb-xl-5">
+                    <div class="col-sm-6 col-xl-6 mb-xl-5">
                         <!--begin::Card widget 2-->
                         <div class="card h-lg-100 " style=" border-radius: 3em">
                             <!--begin::Body-->
@@ -78,9 +78,9 @@
                     </div>
                     <!--end::Col-->
                     <!--begin::Col-->
-                    <div class="col-sm-6 col-xl-5 mb-xl-5">
+                    <div class="col-sm-6 col-xl-6 mb-xl-5">
                         <!--begin::Card widget 2-->
-                        <div class="card h-lg-100" style=" border-radius: 3em">
+                        <div class="card h-lg-100 mb-4" style=" border-radius: 3em">
                             <!--begin::Body-->
                             <div class="card-body d-flex justify-content-between align-items-start flex-column">
                                 <!--begin::Icon-->
@@ -141,7 +141,7 @@
 
                 <!--begin::Row-->
                 <div class="row gy-5 g-xl-10">
-                    <div class="col-sm-6 col-xl-5 mb-xl-5">
+                    <div class="col-sm-6 col-xl-6 mb-xl-5">
                         <!--begin::Card widget 2-->
                         <div class="card h-lg-100" style=" border-radius: 3em">
                             <!--begin::Body-->
@@ -197,9 +197,9 @@
                         </div>
                         <!--end::Card widget 2-->
                     </div>
-                    <div class="col-sm-6 col-xl-5 mb-xl-5">
+                    <div class="col-sm-6 col-xl-6 mb-xl-5">
                         <!--begin::Card widget 2-->
-                        <div class="card h-lg-100" style=" border-radius: 3em">
+                        <div class="card h-lg-100 mb-4" style=" border-radius: 3em">
                             <!--begin::Body-->
                             <div class="card-body d-flex justify-content-between align-items-start flex-column">
                                 <!--begin::Icon-->
@@ -437,10 +437,6 @@
 
                         </div>
 
-
-
-
-
                     </div>
                     <!--end::Body-->
                 </div>
@@ -538,7 +534,7 @@
             <!--begin::Col-->
             <div class="col-xl-6">
                 <!--begin::Chart widget 4-->
-                <div class="card card-flush overflow-hidden h-md-100">
+                <div class="card card-flush overflow-hidden h-md-100 mb-4">
                     <!--begin::Header-->
                     <div class="card-header py-5">
                         <!--begin::Title-->
@@ -581,9 +577,9 @@
                     <!--begin::Card body-->
                     <div class="card-body pt-2 pb-4 d-flex align-items-center">
                         <!--begin::Chart-->
-                       
+                        <div class="d-flex flex-center me-5 pt-2">
                         <div id="kt_chart_widgets_22_chart_1" class="mx-auto mb-4"></div>
-                    
+                        </div>
                         <!--end::Chart-->
                         <!--begin::Labels-->
                         <div class="d-flex flex-column content-justify-center w-100">
@@ -672,7 +668,7 @@
                                     </svg>
                                 </span>
                                 <!--end::Svg Icon-->
-                                <div class="fw-bold text-white">Earning</div>
+                                <div class="fw-bold text-white fs-3">Earning</div>
                                 <div class="text-white fw-bolder fs-2 mb-2 mt-5">$50,000</div>
 
                             </div>
@@ -700,7 +696,7 @@
                                                 Revenue</a>
                                             <!--end::Title-->
                                             <!--begin::Chart-->
-                                            <div class="mixed-widget-13-chart" style="height: 100px"></div>
+                                            <div class="mixed-widget-13-chart" style="height: 150px"></div>
                                             <!--end::Chart-->
                                         </div>
                                         <!--end::Wrapper-->
@@ -734,7 +730,7 @@
                                                 Revenue</a>
                                             <!--end::Title-->
                                             <!--begin::Chart-->
-                                            <div class="mixed-widget-13-chart" style="height: 100px"></div>
+                                            <div class="mixed-widget-13-chart" style="height: 150px"></div>
                                             <!--end::Chart-->
                                         </div>
                                         <!--end::Wrapper-->
@@ -1130,7 +1126,7 @@
                                 <!--begin::Section-->
                                 <div class="d-flex align-items-center me-3 mt-2">
                                     <!--begin::Icon-->
-                                    <img src="assets/media/svg/brand-logos/dribbble-icon-1.svg" class="me-3 w-30px"
+                                    <img src="{{asset('static/media/svg/brand-logos/dribbble-icon-1.svg') }}" class="me-3 w-30px"
                                         alt="" />
                                     <!--end::Icon-->
                                     <!--begin::Section-->
@@ -1168,7 +1164,7 @@
                                 <!--begin::Section-->
                                 <div class="d-flex align-items-center me-3 mt-2">
                                     <!--begin::Icon-->
-                                    <img src="assets/media/svg/brand-logos/dribbble-icon-1.svg" class="me-3 w-30px"
+                                    <img src="{{asset('static/media/svg/brand-logos/dribbble-icon-1.svg') }}" class="me-3 w-30px"
                                         alt="" />
                                     <!--end::Icon-->
                                     <!--begin::Section-->
@@ -1206,7 +1202,7 @@
                                 <!--begin::Section-->
                                 <div class="d-flex align-items-center me-3 mt-2">
                                     <!--begin::Icon-->
-                                    <img src="assets/media/svg/brand-logos/dribbble-icon-1.svg" class="me-3 w-30px"
+                                    <img src="{{asset('static/media/svg/brand-logos/dribbble-icon-1.svg') }}" class="me-3 w-30px"
                                         alt="" />
                                     <!--end::Icon-->
                                     <!--begin::Section-->
@@ -1248,32 +1244,29 @@
 
                         <div class="d-flex flex-column my-7 mx-8">
                             <div class="row">
-                                <div class="col-8">
+                                <div class="col-7">
                                     <div class="m-0">
 
-                                        <span class="fw-bold fs-3x text-gray-800 lh-1 ls-n2 my-3">865 Complaints</span>
+                                        <span class="fw-bold fs-5 text-black   my-3">865 Complaints</span>
 
                                         </span>
                                     </div>
                                     <!--begin::Number-->
-                                    <span class="fw-bold fs-6 text-gray-400 ">Total nummbers of complain in last 30 Days
+                                    <span class="fw-bold fs-6 text-gray-400 ">Total numbers of complain in last 30 Days
                                         <!--end::Number-->
                                         <!--begin::Follower-->
 
                                         <!--end::Follower-->
                                 </div>
 
-                                <div class="col-4">
-                                    <a class="btn btn-dark text-white"> View all Complaints</a>
+                                <div class="col-5">
+                                    <a class="btn btn-dark text-white">All Complaints</a>
                                 </div>
 
 
                             </div>
 
                         </div>
-
-
-
 
 
                     </div>

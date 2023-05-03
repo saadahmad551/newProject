@@ -25,7 +25,7 @@
 
 <body id="kt_body"
     class="header-fixed header-tablet-and-mobile-fixed toolbar-enabled toolbar-fixed aside-enabled aside-fixed"
-    style="--kt-toolbar-height:2px;--kt-toolbar-height-tablet-and-mobile:55px">
+    style="--kt-toolbar-height:0;--kt-toolbar-height-tablet-and-mobile:55px">
     <!--begin::Main-->
     <!--begin::Root-->
     <div class="d-flex flex-column flex-root">
@@ -40,7 +40,8 @@
                 <div class="aside-logo flex-column-auto" id="kt_aside_logo">
                     <!--begin::Logo-->
                     <a href="#">
-                        <img alt="Logo" src="#" class="h-35px logo" />
+                        <img alt="Logo" src="{{ asset('static/media\logos\logo_dark_horizontal.png') }}" class="h-55px logo" />
+                        
                     </a>
                     <!--end::Logo-->
                     <!--begin::Aside toggler-->
