@@ -1,5 +1,5 @@
 @extends('layouts.master')
-@section('title', ' Role List')
+@section('title', ' Fleet Details')
 
 @section("extra_style")
 @endsection
@@ -14,8 +14,7 @@
         <h1 class="fs-lg-2x  pb-7 px-2">Fleet Details</h1>
         <div class="col-lg-12  py-10">
             <!--begin::Engage widget 8-->
-            <div class="card h-md-100   "
-                style="background: linear-gradient(112.14deg, #00D2FF 0%, #3A7BD5 100%)">
+            <div class="card h-md-100   " style="background-color: #D2DCF0">
                 <!--begin::Body-->
                 <div class="card-body">
                     <!--begin::Row-->
@@ -32,14 +31,14 @@
                                 <!--begin::Contact details-->
                                 <div class="d-flex flex-column gap-2">
                                     <!--begin::Name-->
-                                    <div class="fs-4 fw-bold me-2 d-block lh-1 pb-2 opacity-75 text-white ">Occupied By
+                                    <div class="fs-4 fw-bold me-2 d-block lh-1 pb-2 opacity-75 text-dark ">Occupied By
                                     </div>
 
                                     <!--end::Name-->
                                     <!--begin::Email-->
                                     <div class="d-flex align-items-center gap-2">
                                         <!--begin::Svg Icon | path: icons/duotune/communication/com011.svg-->
-                                        <span class="svg-icon svg-icon-2" style="background: #35C7FF">
+                                        <span class="svg-icon svg-icon-2">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 viewBox="0 0 24 24" fill="none">
                                                 <path opacity="0.3"
@@ -51,7 +50,7 @@
                                             </svg>
                                         </span>
                                         <!--end::Svg Icon-->
-                                        <h3 class=" fw-bolder text-white fs-2qx">Muhammad Ali</h3>
+                                        <h3 class=" fw-bolder text-dark fs-2qx">Muhammad Ali</h3>
                                     </div>
                                     <!--end::Email-->
                                     <!--begin::Phone-->
@@ -68,7 +67,7 @@
                                         </span>
                                         <!--end::Svg Icon-->
                                         <a href="#"
-                                            class="fs-4 fw-bold me-2 d-block lh-1 pb-2 opacity-75 text-white">+6141 234
+                                            class="fs-4 fw-bold me-2 d-block lh-1 pb-2 opacity-75 text-dark">+6141 234
                                             567</a>
                                     </div>
                                     <!--end::Phone-->
@@ -76,7 +75,7 @@
                                 <!--end::Contact details-->
                             </div>
                             <div class="row mt-15">
-                                <div class="card-Fluid   rounded-pill " style="background-color:  #1639cf5e">
+                                <div class="card-Fluid   rounded-pill " style="background-color:  #344767">
                                     <div class="px-10 py-5">
                                         <h3 class=" fw-bolder text-white fs-4">Milage:<span
                                                 class="fs-2qx">15km/lit</span>
@@ -92,20 +91,21 @@
                         </div>
                         <!--end::Col-->
                         <!--begin::Col-->
-                        <div class="col-5 py-10 flex-column ">
-                            <!--begin::Illustration-->
+                        <div class="col-lg-5 col-sm-5  flex-column ">
 
-                            <img src="{{asset('static/media\Fleet\image-6.png')}}" class="h-300px" alt="" />
+                            <div class=" h-300px d-flex flex-column	align-items-center gap-2  ">
+                                <img src="{{asset('static/media\Fleet\image-6.png')}}"
+                                    class="img-fluid" alt="" style="height:300px;" />
+                            </div> 
 
                             <div class="d-flex flex-column	align-items-center gap-2">
-                                <!--begin::Name-->
-                                <!--end::Name-->
-                                <!--begin::Email-->
+
+
                                 <div class="d-flex align-items-center gap-2">
 
 
-                                    <h3 class="mb-0 text-white">LOZ 4352</h3>
-                                </div>
+                                    <h3 class="mb-0 text-dark fs-2qx">LOZ 4352</h3>
+                                </div> 
                                 <!--end::Email-->
                                 <!--begin::Phone-->
                                 <div class="d-flex align-items-center gap-2">
@@ -113,7 +113,7 @@
 
                                     <!--end::Svg Icon-->
                                     <a href="#"
-                                        class="fs-3px fw-bold me-2 d-block lh-1 pb-2 opacity-75 text-white">REGISTRATION
+                                        class="fs-3px fw-bold me-2 d-block lh-1 pb-2 opacity-75 text-dark">REGISTRATION
                                         NUMBER</a>
                                 </div>
                                 <!--end::Phone-->
@@ -133,18 +133,21 @@
 
             <!--begin::Col-->
             <div class="">
-              <div class="mb-20"> <h1 class="fs-lg-2x   px-2">Current Location</h1></div>  
-           
-               
+                <div class="mb-20">
+                    <h1 class="fs-lg-2x   px-2">Current Location</h1>
+                </div>
+
+
                 <div class="">
-                  
+
                     <div class=" card h-md-100 ">
 
-                    <img src="{{asset('static/media/Fleet/17b63267-2ffb-45ed-a3f2-7f81555d68be.jpg')}}" class="" alt="" />
-                                        </div>
+                        <img src="{{asset('static/media/Fleet/17b63267-2ffb-45ed-a3f2-7f81555d68be.jpg')}}" class=""
+                            alt="" />
+                    </div>
 
-                                      
-                   
+
+
                 </div>
                 <!--end::Tables Widget 9-->
             </div>
