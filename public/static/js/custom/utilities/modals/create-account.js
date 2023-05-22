@@ -29,7 +29,7 @@ var KTCreateAccount = function () {
                  buisness_name: {validators: {notEmpty: {message: "Buisness name is required"}}},
                  email: {validators: {notEmpty: {message: "Email Adress is required"}}},
                  password: {validators: {notEmpty: {message: "Pasword is required"}}},
-                 confirm_password: {validators: {notEmpty: {message: ""}}}
+                 confirm_password: {validators: {notEmpty: {message: "This Field Confirm Password is not valid"}}}
 
 
 

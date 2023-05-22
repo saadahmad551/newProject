@@ -51,8 +51,14 @@ Route::get('/Fleet', function () {
 });
 
 
-Route::get('/', function () {
+Route::get('Fleet_detail', function () {
     return view('Fleet_detail');
+    
+});
+
+
+Route::get('/', function () {
+    return view('add_Fleet');
 });
 //Route::group(['prefix' => '/test'], function () {
 //    return view('test');

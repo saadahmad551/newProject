@@ -308,7 +308,7 @@
 								<!--begin::Currency-->
 								<!--end::Currency-->
 								<!--begin::Value-->
-								<span class="fs-3hx fw-bolder text-gray-800 me-2 lh-1 ls-n2">Currently Active: 15</span>
+								<span class="fs-2hx fw-bolder text-gray-800 me-2 lh-1 ls-n2">Currently Active: 15</span>
 								<!--end::Value-->
 
 							</div>
