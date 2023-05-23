@@ -286,7 +286,7 @@
                                 <!--end::Card header-->
                                 <!--begin::Card body-->
                                 <div class="card-body pt-0">
-                                <div class="mb-10 row">
+                                    <div class="mb-10 row">
                                         <!--begin::Label-->
                                         <div class="col-lg-4 fv-row">
                                             <label class="required form-label mb-4">Insurance Picture</label>
@@ -321,7 +321,7 @@
                                 <!--end::Card header-->
                                 <!--begin::Card body-->
                                 <div class="card-body pt-0">
-                                <div class="mb-10 row">
+                                    <div class="mb-10 row">
                                         <!--begin::Label-->
                                         <div class="col-lg-4 fv-row">
                                             <label class="required form-label mb-4">Municipality Picture</label>
@@ -351,6 +351,7 @@
                     <div class="tab-pane fade" id="re_services" role="tab-panel">
                         <div class="d-flex flex-column gap-7 gap-lg-10">
                             <!--begin::Inventory-->
+
                             <div class="card card-flush py-4">
                                 <!--begin::Card header-->
                                 <div class="card-header">
@@ -364,15 +365,15 @@
                                     <div class="row mb-2" data-kt-buttons="true">
                                         <!--begin::Col-->
                                         <div class="mb-10 row">
-                                        <div class="col-lg-8 fv-row">
-                                            <label class=" form-label required">Api Unit Id</label>
-                                            <input type="text" name="property_price" class="form-control mb-2" value="" />
+                                            <div class="col-lg-8 fv-row">
+                                                <label class=" form-label required">Api Unit Id</label>
+                                                <input type="text" name="property_price" class="form-control mb-2" value="" />
 
 
 
-                                           
+
+                                            </div>
                                         </div>
-                                    </div>
                                         <!--end::Col-->
 
                                     </div>
@@ -381,80 +382,14 @@
                                 </div>
 
                             </div>
-                        </div>
-                    </div>
-
-
-                    <div class="tab-pane fade" id="re_nearby" role="tab-panel">
-                        <div class="d-flex flex-column gap-7 gap-lg-10">
-                            <!--begin::Inventory-->
-                            <div class="card card-flush py-4">
-                                <!--begin::Card header-->
-                                <div class="card-header">
-                                    <div class="card-title">
-                                        <h2>Project Near By</h2>
-                                    </div>
-                                </div>
-                                <!--end::Card header-->
-                                <!--begin::Card body-->
-                                <div class="card-body pt-0">
-                                    <div class="row">
-                                        <div class="block-body">
-                                            <ul class="avl-features third color">
-                                            </ul>
-                                        </div>
-
-                                    </div>
-                                    <div class="row mb-2" data-kt-buttons="true">
-                                        <!--begin::Col-->
-                                        <div class="col card shadow-sm border border-primary border-dashed rounded min-w-125px py-3 px-4 me-6 mb-3 bg-light-primary justify-content-center text-center">
-                                            <label class="form-check-label fw-bold" for="nearby_Hasnain Riaz">
-                                                <div class="align-items-center">
-
-                                                    <!--begin::Icon-->
-                                                    <div class="symbol symbol-50px w-50px bg-light me-5 mb-4">
-                                                        <i class="vv fs-1 text-primary p-3"></i>
-                                                    </div>
-                                                    <!--end::Icon-->
-                                                    <!--begin::Option-->
-                                                    <div class="form-check form-check-custom form-check-success form-check-solid form-check-lg justify-content-center text-center">
-                                                        <input class="form-check-input h-25px w-25px" type="checkbox" value="9927d9e3-9e75-4012-aaea-0b2af35af3ef" name="nearby[]" id="nearby_9927d9e3-9e75-4012-aaea-0b2af35af3ef" />
-                                                        Hasnain Riaz
-                                                    </div>
-                                                </div>
-                                            </label>
-                                        </div>
-                                        <!--end::Col-->
-                                        <!--begin::Col-->
-                                        <div class="col card shadow-sm border border-primary border-dashed rounded min-w-125px py-3 px-4 me-6 mb-3 bg-light-primary justify-content-center text-center">
-                                            <label class="form-check-label fw-bold" for="nearby_School">
-                                                <div class="align-items-center">
-
-                                                    <!--begin::Icon-->
-                                                    <div class="symbol symbol-50px w-50px bg-light me-5 mb-4">
-                                                        <i class="fa fa-home fs-1 text-primary p-3"></i>
-                                                    </div>
-                                                    <!--end::Icon-->
-                                                    <!--begin::Option-->
-                                                    <div class="form-check form-check-custom form-check-success form-check-solid form-check-lg justify-content-center text-center">
-                                                        <input class="form-check-input h-25px w-25px" type="checkbox" value="992fbc88-2bdd-4c6f-b745-7c210302dacc" name="nearby[]" id="nearby_992fbc88-2bdd-4c6f-b745-7c210302dacc" />
-                                                        School
-                                                    </div>
-                                                </div>
-                                            </label>
-                                        </div>
-                                        <!--end::Col-->
-
-                                    </div>
-
-
-                                </div>
-                                <!--end::Card header-->
-                            </div>
 
                         </div>
                     </div>
-                    <!--end::Tab pane-->
+
+
+
+
+
 
                 </div>
                 <!--end::Tab content-->

@@ -352,11 +352,19 @@
         </div>
 
         <div class="menu-item">
-            <a class="menu-link" href="add_fleet">
+            <a class="menu-link" href="add_Fleet">
                 <span class="menu-bullet">
                     <span class="bullet bullet-dot"></span>
                 </span>
                 <span class="menu-title">Add Fleet</span>
+            </a>
+        </div>
+        <div class="menu-item">
+            <a class="menu-link" href="ViewFleet">
+                <span class="menu-bullet">
+                    <span class="bullet bullet-dot"></span>
+                </span>
+                <span class="menu-title">View Fleet</span>
             </a>
         </div>
 
