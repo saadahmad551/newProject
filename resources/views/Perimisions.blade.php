@@ -4356,12 +4356,6 @@ License: For each use you must have a valid license purchased only from above li
 
 
 
-<script src="assets/js/custom/apps/user-management/permissions/list.js"></script>
-<script src="assets/js/custom/apps/user-management/permissions/add-permission.js"></script>
-<script src="assets/js/custom/apps/user-management/permissions/update-permission.js"></script>
-
-
-
 <script>
     toastr.options = {
         "closeButton": true,

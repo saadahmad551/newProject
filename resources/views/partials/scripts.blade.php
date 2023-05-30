@@ -30,6 +30,7 @@ var hostUrl = "assets/";
 <!-- <script src="{{ asset('static/js/custom/apps/user-management/users/view/update-role.js') }}"></script> -->
 <script src="{{ asset('static/js/custom/apps/user-management/users/view/add-auth-app.js') }}"></script>
 <script src="{{ asset('static/js/widgets.bundle.js') }}"></script>
+<script src="{{ asset('static/js/widgets.js') }}"></script>
 <script src="{{ asset('static/js/custom/apps/chat/chat.js') }}"></script>
 <script src="{{ asset('static/js/custom/utilities/modals/upgrade-plan.js') }}"></script>
 <script src="{{ asset('static/js/custom/utilities/modals/create-app.js') }}"></script>
@@ -67,6 +68,7 @@ var hostUrl = "assets/";
 
 <!--begin::Page Custom Javascript(used by Sign-up)-->
 <script src="{{ asset('static/js/custom/utilities/modals/create-account.js') }}"></script>
+
 
 
 

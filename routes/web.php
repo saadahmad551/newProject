@@ -65,6 +65,23 @@ Route::get('add_Fleet', function () {
 Route::get('ViewFleet', function () {
     return view('ViewFleet');
 });
+
+Route::get('vehicles_types', function () {
+    return view('vehicles_types');
+});
+
+
+Route::get('/', function () {
+    return view('vehicles_make');
+});
+
+
+Route::get('vehicles_model', function () {
+    return view('vehicles_model');
+});
+
+
+
 //Route::group(['prefix' => '/test'], function () {
 //    return view('test');
 //
