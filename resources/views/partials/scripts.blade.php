@@ -65,9 +65,13 @@ var hostUrl = "assets/";
 <script src="{{ asset('static/plugins/global/plugins.bundle.js') }}"></script>
 <script src="{{ asset('plugins/custom/datatables/datatables.bundle.js') }}"></script>
 
+<script src="{{ asset('static/plugins/global/plugins.bundle.js') }}"></script>
+
+
 
 <!--begin::Page Custom Javascript(used by Sign-up)-->
 <script src="{{ asset('static/js/custom/utilities/modals/create-account.js') }}"></script>
+<script src="{{ asset('static/js/custom/utilities/modals/new-target.js') }}"></script>
 
 
 

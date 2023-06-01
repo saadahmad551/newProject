@@ -71,7 +71,7 @@ Route::get('vehicles_types', function () {
 });
 
 
-Route::get('/', function () {
+Route::get('/vehicles_make', function () {
     return view('vehicles_make');
 });
 
@@ -79,6 +79,17 @@ Route::get('/', function () {
 Route::get('vehicles_model', function () {
     return view('vehicles_model');
 });
+
+
+Route::get('vehicles_Fuels', function () {
+    return view('vehicles_Fuels');
+});
+
+
+Route::get('vehicles_mentainance', function () {
+    return view('vehicles_mentainance');
+});
+
 
 
 

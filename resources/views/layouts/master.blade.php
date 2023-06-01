@@ -462,6 +462,23 @@
                                                     <span class="menu-title">vehicles Model</span>
                                                 </a>
                                             </div>
+                                            <div class="menu-item">
+                                                <a class="menu-link" href="vehicles_Fuels">
+                                                    <span class="menu-bullet">
+                                                        <span class="bullet bullet-dot"></span>
+                                                    </span>
+                                                    <span class="menu-title">vehicles Fuel</span>
+                                                </a>
+                                            </div>
+                                            <div class="menu-item">
+                                                <a class="menu-link" href="vehicles_mentainance">
+                                                    <span class="menu-bullet">
+                                                        <span class="bullet bullet-dot"></span>
+                                                    </span>
+                                                    <span class="menu-title">vehicles Mentainence</span>
+                                                </a>
+                                            </div>
+
                                         </div>
                                     </div>
 
