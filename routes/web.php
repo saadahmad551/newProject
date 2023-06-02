@@ -81,7 +81,7 @@ Route::get('vehicles_model', function () {
 });
 
 
-Route::get('vehicles_Fuels', function () {
+Route::get('/', function () {
     return view('vehicles_Fuels');
 });
 
