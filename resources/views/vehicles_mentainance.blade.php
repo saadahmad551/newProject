@@ -33,7 +33,7 @@
 
 						<div class="card-toolbar ">
 							<!--begin::Daterangepicker(defined in src/js/layout/app.js)-->
-							<a href="#" class="btn btn-primary er fs-6 px-8 py-4" data-bs-toggle="modal" data-bs-target="#kt_modal_new_address">Add New Address</a>
+							<a href="#" class="btn btn-primary er fs-6 px-8 py-4" data-bs-toggle="modal" data-bs-target="#kt_modal_new_address">Add  Vehicle Mentainence</a>
 							<!--end::Daterangepicker-->
 						</div>
 
@@ -286,7 +286,7 @@
 			<!--begin::Heading-->
 			<div class="my-5 text-center">
 						<!--begin::Title-->
-						<h1 class="mb-3">Add Vehicle Fuel</h1>
+						<h1 class="mb-3">Add Vehicle Mentainence</h1>
 						<!--end::Title-->
 
 					</div>
@@ -358,16 +358,16 @@
 									<div class="d-flex flex-column mb-5 fv-row">
 										<!--begin::Label-->
 										<label class="d-flex align-items-center fs-5 fw-bold mb-2">
-											<span class="required">Fuel type</span>
+											<span class="required">Mentainence type</span>
 										</label>
 										<!--end::Label-->
 										<!--begin::Select-->
-										<select   name="Fuel Type" data-control="select2" data-dropdown-parent="#kt_modal_new_address"data-placeholder="Select a Fuel Type" class="form-select form-select-solid">
+										<select   name="Fuel Type" data-control="select2" data-dropdown-parent="#kt_modal_new_address"data-placeholder="Select a Mentainence Type" class="form-select form-select-solid">
 											<option value="">Select a Fuel Type...</option>
-											<option value="AF">Petrol</option>
-											<option value="AF">Gas </option>
-											<option value="AF">Electric</option>
-											<option value="AF">Diesel</option>
+											<option value="AF">Oil And Filter</option>
+											<option value="AF">Tyres check </option>
+											<option value="AF">Break maintenance.</option>
+											<option value="AF">Operation Maintenance.</option>
 
 										</select>
 										<!--end::Select-->
@@ -376,13 +376,18 @@
 								<!--end::Col-->
 								<!--begin::Col-->
 								<div class="col-md-6 fv-row">
-									<!--begin::Label-->
-									<label class="d-flex align-items-center fs-6 fw-bold mb-2">
-										<span class="required">Fuel Quantity</span>
-									</label>
-									<!--end::Label-->
-									<input type="number" class="form-control form-control-solid" placeholder="Enter Fuel Quantity" name="target_title" />
+									<label class="required fs-6 fw-bold mb-2">Mentainence Date</label>
+									<!--begin::Input-->
+									<div class="position-relative d-flex align-items-center">
+
+										<!--begin::Datepicker-->
+										<input class="form-control form-control-solid ps-12" placeholder="Select a Mentainence" name="due_date" type="date" />
+										<!--end::Datepicker-->
+									</div>
+									<!--end::Input-->
 								</div>
+
+								
 
 								<!--end::Col-->
 							</div>
@@ -392,33 +397,32 @@
 								<div class="col-md-6 fv-row">
 									<!--begin::Label-->
 									<label class="d-flex align-items-center fs-6 fw-bold mb-2">
-										<span class="required">Fuel Cost</span>
+										<span class="required">Mentainence Cost</span>
 									</label>
 									<!--end::Label-->
-									<input type="number" class="form-control form-control-solid" placeholder="Enter Fuel Cast" name="target_title" />
+									<input type="number" class="form-control form-control-solid" placeholder="Enter Mentainence Cast" name="target_title" />
 								</div>
 
 								<div class="col-md-6 fv-row">
-									<label class="required fs-6 fw-bold mb-2">Fuel Date</label>
-									<!--begin::Input-->
-									<div class="position-relative d-flex align-items-center">
-
-										<!--begin::Datepicker-->
-										<input class="form-control form-control-solid ps-12" placeholder="Select a date" name="due_date" type="date" />
-										<!--end::Datepicker-->
-									</div>
-									<!--end::Input-->
+									<!--begin::Label-->
+									<label class="d-flex align-items-center fs-6 fw-bold mb-2">
+										<span class="required">Garage</span>
+									</label>
+									<!--end::Label-->
+									<input type="text" class="form-control form-control-solid" placeholder="Enter Garage" name="target_title" />
 								</div>
+
+								
 
 							</div>
 							<!--end::Input group-->
 							<div class="d-flex flex-column mb-8 fv-row">
 								<!--begin::Label-->
 								<label class="d-flex align-items-center fs-6 fw-bold mb-2">
-									<span class="required">Supplier</span>
+									<span class="required">Description</span>
 								</label>
 								<!--end::Label-->
-								<input type="text" class="form-control form-control-solid" placeholder="Enter Supplier" name="target_title" />
+								<input type="text" class="form-control form-control-solid" placeholder="Enter Description" name="target_title" />
 							</div>
 							<!--begin::Input group-->
 							<div class="d-flex flex-column mb-8">
