@@ -13,46 +13,59 @@ var KTModalNewAddress = (function () {
                     .on("change", function () {
                         n.revalidateField("country");
                     }),
+
+                    $(o.querySelector('[name="Driver"]'))
+                    .select2()
+                    .on("change", function () {
+                        n.revalidateField("Driver");
+                    }),
+
+                    $(o.querySelector('[name="Vehicle"]'))
+                    .select2()
+                    .on("change", function () {
+                        n.revalidateField("Vehicle");
+                    }),
+
                 (n = FormValidation.formValidation(o, {
                     fields: {
-                        "first-name": {
+                        Vehicle: {
                             validators: {
-                                notEmpty: { message: "First name is required" },
+                                notEmpty: { message: "vehicle  is required" },
                             },
                         },
-                        "last-name": {
+                        Driver: {
                             validators: {
-                                notEmpty: { message: "Last name is required" },
+                                notEmpty: { message: "Driver  is required" },
                             },
                         },
                         country: {
                             validators: {
-                                notEmpty: { message: "Country is required" },
+                                notEmpty: { message: "Fuel type is required" },
                             },
                         },
-                        address1: {
+                        FuelQty: {
                             validators: {
-                                notEmpty: { message: "Address 1 is required" },
+                                notEmpty: { message: " Fuel Quantity is required" },
                             },
                         },
-                        address2: {
+                        fuelCast: {
                             validators: {
-                                notEmpty: { message: "Address 2 is required" },
+                                notEmpty: { message: "FueL Cast  is required" },
                             },
                         },
-                        city: {
+                        fuelDate: {
                             validators: {
-                                notEmpty: { message: "City is required" },
+                                notEmpty: { message: "Date  is required" },
                             },
                         },
-                        state: {
+                        Supplier: {
                             validators: {
-                                notEmpty: { message: "State is required" },
+                                notEmpty: { message: "Supplier is required" },
                             },
                         },
-                        postcode: {
+                        Notes: {
                             validators: {
-                                notEmpty: { message: "Postcode is required" },
+                                notEmpty: { message: "Notes is required" },
                             },
                         },
                     },

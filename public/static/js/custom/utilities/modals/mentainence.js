@@ -8,51 +8,64 @@ var KTModalNewAddress = (function () {
                 (o = document.querySelector("#kt_modal_new_address_form")),
                 (t = document.getElementById("kt_modal_new_address_submit")),
                 (e = document.getElementById("kt_modal_new_address_cancel")),
-                $(o.querySelector('[name="country"]'))
+                $(o.querySelector('[name="Vehicle"]'))
                     .select2()
                     .on("change", function () {
-                        n.revalidateField("country");
+                        n.revalidateField("Vehicle");
                     }),
+
+                    $(o.querySelector('[name="Employee"]'))
+                    .select2()
+                    .on("change", function () {
+                        n.revalidateField("Employee");
+                    }),
+
+                    $(o.querySelector('[name="Mentainence"]'))
+                    .select2()
+                    .on("change", function () {
+                        n.revalidateField("Mentainence");
+                    }),
+
                 (n = FormValidation.formValidation(o, {
                     fields: {
-                        "first-name": {
+                        Vehicle: {
                             validators: {
-                                notEmpty: { message: "First name is required" },
+                                notEmpty: { message: "vehicle  is required" },
                             },
                         },
-                        "last-name": {
+                        Employee: {
                             validators: {
-                                notEmpty: { message: "Last name is required" },
+                                notEmpty: { message: "Employee  is required" },
                             },
                         },
-                        country: {
+                        Mentainence: {
                             validators: {
-                                notEmpty: { message: "Country is required" },
+                                notEmpty: { message: "Mentainence type is required" },
                             },
                         },
-                        address1: {
+                        FuelQty: {
                             validators: {
-                                notEmpty: { message: "Address 1 is required" },
+                                notEmpty: { message: " Fuel Quantity is required" },
                             },
                         },
-                        address2: {
+                        MentainenceCast: {
                             validators: {
-                                notEmpty: { message: "Address 2 is required" },
+                                notEmpty: { message: "Mentainence Cost  is required" },
                             },
                         },
-                        city: {
+                        mDate: {
                             validators: {
-                                notEmpty: { message: "City is required" },
+                                notEmpty: { message: "Date  is required" },
                             },
                         },
-                        state: {
+                        Garage: {
                             validators: {
-                                notEmpty: { message: "State is required" },
+                                notEmpty: { message: "Garage is required" },
                             },
                         },
-                        postcode: {
+                        Description: {
                             validators: {
-                                notEmpty: { message: "Postcode is required" },
+                                notEmpty: { message: "Description is required" },
                             },
                         },
                     },

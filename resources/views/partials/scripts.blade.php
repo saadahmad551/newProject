@@ -64,8 +64,8 @@ var hostUrl = "assets/";
 <!--begin::Page Custom Javascript(used by Sign-up)-->
 <script src="{{ asset('static/js/custom/utilities/modals/create-account.js') }}"></script>
 <script src="{{ asset('static/js/custom/utilities/modals/new-target.js') }}"></script>
-
-
+<script src="{{ asset('static/js/custom/utilities/modals/Fuel.js') }}"></script>
+<script src="{{ asset('static/js/custom/utilities/modals/mentainence.js') }}"></script>
 
 
 <script>

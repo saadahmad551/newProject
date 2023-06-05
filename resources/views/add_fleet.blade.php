@@ -68,7 +68,7 @@
                                             <!--begin::Input-->
 
                                             <label class="required form-label">Reg Number</label>
-                                            <input type="text" name="property_price" class="form-control mb-2" value="" />
+                                            <input type="text" name="property_price" class="form-control mb-2 required" value="" />
 
 
                                             <!--end::Input-->

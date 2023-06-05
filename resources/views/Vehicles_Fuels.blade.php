@@ -23,7 +23,7 @@
 					<div class="card-header pt-5 mb-3">
 						<!--begin::Title-->
 						<h3 class="card-title align-items-start flex-column">
-							<span class="card-label fw-bolder text-gray-800 fs-lg-2x">Vehicles Mentainence</span>
+							<span class="card-label fw-bolder text-gray-800 fs-lg-2x">Vehicles Fuels</span>
 
 						</h3>
 						<!--end::Title-->
@@ -41,7 +41,7 @@
 									</svg>
 								</span>
 								<!--end::Svg Icon-->
-								<input type="text" data-kt-table-widget-4="search" class="form-control w-150px fs-7 ps-12" placeholder="Search" />
+								<input type="text" data-kt-table-widget-4="search" class="form-control w-150px fs-7 ps-12" placeholder="Search"  style="width: 200px!important;"/>
 							</div>
 							<!--begin::Daterangepicker(defined in src/js/layout/app.js)-->
 							<a href="#" class="btn btn-primary er fs-6 px-8 py-4" data-bs-toggle="modal" data-bs-target="#kt_modal_new_address">Add vehicle Fuel</a>
@@ -143,7 +143,7 @@
 
 
 									<!--begin::Product ID-->
-									<td class="text-end">Hamza</td>
+									<td class="text-end">Ahmed</td>
 									<!--end::Product ID-->
 									<!--begin::Date added-->
 									<td class="text-end">Diesel</td>
@@ -215,7 +215,7 @@
 
 
 									<!--begin::Product ID-->
-									<td class="text-end">Hamza</td>
+									<td class="text-end">Zain</td>
 									<!--end::Product ID-->
 									<!--begin::Date added-->
 									<td class="text-end">Diesel</td>
@@ -384,7 +384,7 @@
 										</label>
 										<!--end::Label-->
 										<!--begin::Select-->
-										<select data-control="select2" data-placeholder=" Select Vehicle" class="form-select form-select-solid" data-control="select2" data-dropdown-parent="#kt_modal_new_address">
+										<select data-control="select2" data-placeholder=" Select Vehicle" class="form-select form-select-solid" data-control="select2" data-dropdown-parent="#kt_modal_new_address" name="Vehicle"  >
 											<option value="">Select a Vehicle...</option>
 											<option value="AF">Honda </option>
 											<option value="AF">TOyota</option>
@@ -403,7 +403,7 @@
 										</label>
 										<!--end::Label-->
 										<!--begin::Select-->
-										<select data-placeholder="Select Driver" class="form-select form-select-solid" name="Driver" data-control="select2" data-dropdown-parent="#kt_modal_new_address">
+										<select data-placeholder="Select Driver" class="form-select form-select-solid"  name="Driver" data-control="select2" data-dropdown-parent="#kt_modal_new_address" >
 											<option value="">Select Driver...</option>
 											<option value="AF">Sam </option>
 											<option value="AF">Tom Cruz</option>
@@ -426,7 +426,7 @@
 										</label>
 										<!--end::Label-->
 										<!--begin::Select-->
-										<select name="Fuel Type" data-control="select2" data-dropdown-parent="#kt_modal_new_address" data-placeholder="Select a Fuel Type" class="form-select form-select-solid">
+										<select name="country" data-control="select2" data-dropdown-parent="#kt_modal_new_address" data-placeholder="Select a Fuel Type" class="form-select form-select-solid" name="country">
 											<option value="">Select a Fuel Type...</option>
 											<option value="AF">Petrol</option>
 											<option value="AF">Gas </option>
@@ -445,7 +445,7 @@
 										<span class="required">Fuel Quantity</span>
 									</label>
 									<!--end::Label-->
-									<input type="number" class="form-control form-control-solid" placeholder="Enter Fuel Quantity" name="target_title" />
+									<input type="number" class="form-control form-control-solid" placeholder="Enter Fuel Quantity" name="FuelQty" />
 								</div>
 
 								<!--end::Col-->
@@ -459,7 +459,7 @@
 										<span class="required">Fuel Cost</span>
 									</label>
 									<!--end::Label-->
-									<input type="number" class="form-control form-control-solid" placeholder="Enter Fuel Cast" name="target_title" />
+									<input type="number" class="form-control form-control-solid" placeholder="Enter Fuel Cast" name="fuelCast" />
 								</div>
 
 								<div class="col-md-6 fv-row">
@@ -468,7 +468,7 @@
 									<div class="position-relative d-flex align-items-center">
 
 										<!--begin::Datepicker-->
-										<input class="form-control form-control-solid ps-12" placeholder="Select a date" name="due_date" type="date" />
+										<input class="form-control form-control-solid ps-12" placeholder="Select a date" name="fuelDate" type="date" />
 										<!--end::Datepicker-->
 									</div>
 									<!--end::Input-->
@@ -482,7 +482,7 @@
 									<span class="required">Supplier</span>
 								</label>
 								<!--end::Label-->
-								<input type="text" class="form-control form-control-solid" placeholder="Enter Supplier" name="target_title" />
+								<input type="text" class="form-control form-control-solid" placeholder="Enter Supplier" name="Supplier" />
 							</div>
 							<!--begin::Input group-->
 							<div class="d-flex flex-column mb-8">

@@ -320,7 +320,7 @@
 										</label>
 										<!--end::Label-->
 										<!--begin::Select-->
-										<select  data-control="select2"  data-placeholder=" Select Vehicle" class="form-select form-select-solid"   data-control="select2" data-dropdown-parent="#kt_modal_new_address">
+										<select  data-control="select2"  data-placeholder=" Select Vehicle" class="form-select form-select-solid"   data-control="select2" data-dropdown-parent="#kt_modal_new_address" name="Vehicle">
 											<option value="">Select a Vehicle...</option>
 											<option value="AF">Honda </option>
 											<option value="AF">TOyota</option>
@@ -362,7 +362,7 @@
 										</label>
 										<!--end::Label-->
 										<!--begin::Select-->
-										<select   name="Fuel Type" data-control="select2" data-dropdown-parent="#kt_modal_new_address"data-placeholder="Select a Mentainence Type" class="form-select form-select-solid">
+										<select   name="Mentainence" data-control="select2" data-dropdown-parent="#kt_modal_new_address"data-placeholder="Select a Mentainence Type" class="form-select form-select-solid">
 											<option value="">Select a Fuel Type...</option>
 											<option value="AF">Oil And Filter</option>
 											<option value="AF">Tyres check </option>
@@ -381,7 +381,7 @@
 									<div class="position-relative d-flex align-items-center">
 
 										<!--begin::Datepicker-->
-										<input class="form-control form-control-solid ps-12" placeholder="Select a Mentainence" name="due_date" type="date" />
+										<input class="form-control form-control-solid ps-12" placeholder="Select a Mentainence" name="mDate" type="date" />
 										<!--end::Datepicker-->
 									</div>
 									<!--end::Input-->
@@ -400,7 +400,7 @@
 										<span class="required">Mentainence Cost</span>
 									</label>
 									<!--end::Label-->
-									<input type="number" class="form-control form-control-solid" placeholder="Enter Mentainence Cast" name="target_title" />
+									<input type="number" class="form-control form-control-solid" placeholder="Enter Mentainence Cast" name="MentainenceCast" />
 								</div>
 
 								<div class="col-md-6 fv-row">
@@ -409,7 +409,7 @@
 										<span class="required">Garage</span>
 									</label>
 									<!--end::Label-->
-									<input type="text" class="form-control form-control-solid" placeholder="Enter Garage" name="target_title" />
+									<input type="text" class="form-control form-control-solid" placeholder="Enter Garage" name="Garage"  />
 								</div>
 
 								
@@ -422,7 +422,7 @@
 									<span class="required">Description</span>
 								</label>
 								<!--end::Label-->
-								<input type="text" class="form-control form-control-solid" placeholder="Enter Description" name="target_title" />
+								<input type="text" class="form-control form-control-solid" placeholder="Enter Description" name="Description" />
 							</div>
 							<!--begin::Input group-->
 							<div class="d-flex flex-column mb-8">
