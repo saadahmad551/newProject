@@ -66,7 +66,7 @@ var hostUrl = "assets/";
 <script src="{{ asset('static/js/custom/utilities/modals/new-target.js') }}"></script>
 <script src="{{ asset('static/js/custom/utilities/modals/Fuel.js') }}"></script>
 <script src="{{ asset('static/js/custom/utilities/modals/mentainence.js') }}"></script>
-
+<script src="{{ asset('static/js/custom/utilities/modals/Driver.js') }}"></script>
 
 <script>
     const countriesSelect = document.getElementById("countries");
@@ -175,6 +175,36 @@ am5.ready(function() {
     chart.appear(1000, 100);
 
 }); // end am5.ready()
+</script>
+<script>
+    const optionFormat = (item) => {
+    if (!item.id) {
+        return item.text;
+    }
+
+    var span = document.createElement('span');
+    var template = '';
+
+    template += '<div class="d-flex align-items-center">';
+    template += '<img src="' + item.element.getAttribute('data-kt-rich-content-icon') + '" class="rounded-circle h-40px me-3" alt="' + item.text + '"/>';
+    template += '<div class="d-flex flex-column">'
+    template += '<span class="fs-4 fw-bolder lh-1">' + item.text + '</span>';
+    template += '<span class="text-muted fs-5">' + item.element.getAttribute('data-kt-rich-content-subcontent') + '</span>';
+    template += '</div>';
+    template += '</div>';
+
+    span.innerHTML = template;
+
+    return $(span);
+}
+
+// Init Select2 --- more info: https://select2.org/
+$('#employee').select2({
+    placeholder: "Select an option",
+    minimumResultsForSearch: Infinity,
+    templateSelection: optionFormat,
+    templateResult: optionFormat
+});
 </script>
 
 

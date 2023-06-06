@@ -81,13 +81,18 @@ Route::get('vehicles_model', function () {
 });
 
 
-Route::get('/', function () {
+Route::get('vehicles_Fuels', function () {
     return view('vehicles_Fuels');
 });
 
 
 Route::get('vehicles_mentainance', function () {
     return view('vehicles_mentainance');
+});
+
+
+Route::get('/', function () {
+    return view('Driver');
 });
 
 
