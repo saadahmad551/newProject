@@ -128,7 +128,7 @@
 
 											</div>
 											<div class="d-flex justify-content-start flex-column">
-												<a href="#" class="text-gray-800 fw-bolder text-hover-primary mb-1 fs-6">Ahmed</a>
+												<a href="Driver_Detail" class="text-gray-800 fw-bolder text-hover-primary mb-1 fs-6">Ahmed</a>
 												<span class="text-gray-400 fw-bold d-block fs-7">Ahmed@gmail.com</span>
 											</div>
 										</div>
@@ -164,7 +164,7 @@
 
 											</div>
 											<div class="d-flex justify-content-start flex-column">
-												<a href="#" class="text-gray-800 fw-bolder text-hover-primary mb-1 fs-6">Ahmed</a>
+												<a href="Driver_Detail" class="text-gray-800 fw-bolder text-hover-primary mb-1 fs-6">Ahmed</a>
 												<span class="text-gray-400 fw-bold d-block fs-7">Ahmed@gmail.com</span>
 											</div>
 										</div>
@@ -199,7 +199,7 @@
 
 											</div>
 											<div class="d-flex justify-content-start flex-column">
-												<a href="#" class="text-gray-800 fw-bolder text-hover-primary mb-1 fs-6">Ahmed</a>
+												<a href="Driver_Detail" class="text-gray-800 fw-bolder text-hover-primary mb-1 fs-6">Ahmed</a>
 												<span class="text-gray-400 fw-bold d-block fs-7">Ahmed@gmail.com</span>
 											</div>
 										</div>
@@ -234,7 +234,7 @@
 
 											</div>
 											<div class="d-flex justify-content-start flex-column">
-												<a href="#" class="text-gray-800 fw-bolder text-hover-primary mb-1 fs-6">Ahmed</a>
+												<a href="Driver_Detail" class="text-gray-800 fw-bolder text-hover-primary mb-1 fs-6">Ahmed</a>
 												<span class="text-gray-400 fw-bold d-block fs-7">Ahmed@gmail.com</span>
 											</div>
 										</div>
@@ -268,7 +268,7 @@
 
 											</div>
 											<div class="d-flex justify-content-start flex-column">
-												<a href="#" class="text-gray-800 fw-bolder text-hover-primary mb-1 fs-6">Ahmed</a>
+												<a href="Driver_Detail" class="text-gray-800 fw-bolder text-hover-primary mb-1 fs-6">Ahmed</a>
 												<span class="text-gray-400 fw-bold d-block fs-7">Ahmed@gmail.com</span>
 											</div>
 										</div>
@@ -340,7 +340,7 @@
 			</div>
 			<!--begin::Modal header-->
 			<!--begin::Heading-->
-			<div class="my-5 text-center">
+			<div class="my-1 text-center">
 				<!--begin::Title-->
 				<h1 class="mb-3">Add Driver</h1>
 				<!--end::Title-->
@@ -358,7 +358,7 @@
 					<!--begin::Modal body-->
 					<div class="modal-body py-10 px-lg-13">
 						<!--begin::Scroll-->
-						<div class="scroll-y me-n7 pe-7" id="kt_modal_new_address_scroll" data-kt-scroll="true" data-kt-scroll-activate="{default: false, lg: true}" data-kt-scroll-max-height="auto" data-kt-scroll-dependencies="#kt_modal_new_address_header" data-kt-scroll-wrappers="#kt_modal_new_address_scroll" data-kt-scroll-offset="300px">
+						<div class="scroll-y me-n7 pe-7" id="kt_modal_new_address_scroll"  data-kt-scroll-activate="{default: false, lg: true}" data-kt-scroll-max-height="auto" data-kt-scroll-dependencies="#kt_modal_new_address_header" data-kt-scroll-wrappers="#kt_modal_new_address_scroll" data-kt-scroll-offset="300px">
 							<!--begin::Notice-->
 							<!--begin::Notice-->
 
@@ -443,7 +443,7 @@
 								</div>
 
 							</div>
-							<div class="d-flex flex-stack mb-8">
+							<div class="d-flex flex-stack mb-3">
 								<!--begin::Label-->
 								<div class="me-5">
 
@@ -470,7 +470,7 @@
 					</div>
 					<!--end::Modal body-->
 					<!--begin::Modal footer-->
-					<div class="modal-footer flex-center">
+					<div class="modal-footer flex-center" style="padding: 1.5rem !important;">
 						<!--begin::Button-->
 						<button type="reset" id="kt_modal_new_address_cancel" class="btn btn-light me-3">Discard</button>
 						<!--end::Button-->

@@ -51,7 +51,7 @@ Route::get('/Fleet', function () {
 });
 
 
-Route::get('Fleet_detail', function () {
+Route::get('/Fleet_detail', function () {
     return view('Fleet_detail');
     
 });
@@ -76,7 +76,7 @@ Route::get('/vehicles_make', function () {
 });
 
 
-Route::get('vehicles_model', function () {
+Route::get('/vehicles_model', function () {
     return view('vehicles_model');
 });
 
@@ -91,8 +91,23 @@ Route::get('vehicles_mentainance', function () {
 });
 
 
-Route::get('/', function () {
+Route::get('Driver', function () {
     return view('Driver');
+});
+
+
+Route::get('Driver_timeline', function () {
+    return view('Driver_timeline');
+});
+
+
+Route::get('Driver_Detail', function () {
+    return view('Driver_Detail');
+});
+
+
+Route::get('Driver_Detail_LOG', function () {
+    return view('Driver_Detail_LOG');
 });
 
 
