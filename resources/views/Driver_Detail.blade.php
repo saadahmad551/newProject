@@ -502,7 +502,7 @@
 			<!--begin::Heading-->
 			<div class="my-1 text-center">
 				<!--begin::Title-->
-				<h1 class="mb-3">Add Driver</h1>
+				<h1 class="mb-3">Edit Driver Profile</h1>
 				<!--end::Title-->
 
 			</div>

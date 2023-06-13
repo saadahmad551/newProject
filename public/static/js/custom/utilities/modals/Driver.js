@@ -1,48 +1,45 @@
 "use strict";
-var KTModalNewAddress = (function () {
+var KTModalDriver = (function () {
     var t, e, n, o, i, r;
     return {
         init: function () {
-            (r = document.querySelector("#kt_modal_new_address")) &&
+            (r = document.querySelector("#KTModalDriver")) &&
                 ((i = new bootstrap.Modal(r)),
-                (o = document.querySelector("#kt_modal_new_address_form")),
-                (t = document.getElementById("kt_modal_new_address_submit")),
-                (e = document.getElementById("kt_modal_new_address_cancel")),
-                 
-
+                (o = document.querySelector("#KTModalDriver_form")),
+                (t = document.getElementById("KTModalDriver_submit")),
+                (e = document.getElementById("KTModalDriver_cancel")),
                 
                 (n = FormValidation.formValidation(o, {
                     fields: {
-                        Employee1: {
+                        KTModalDriver_Employee1: {
                             validators: {
-                                notEmpty: { message: "Employee  is required" },
+                                notEmpty: { message: "Employee is required" },
                             },
                         },
                       
-                       
-                        Licence: {
+                        KTModalDriver_Licence: {
                             validators: {
-                                notEmpty: { message: " Licence Number is required" },
+                                notEmpty: { message: "Licence Number is required" },
                             },
                         },
-                        Licence_Document: {
+                        KTModalDriver_Licence_Document: {
                             validators: {
-                                notEmpty: { message: "Licence Document  is required" },
+                                notEmpty: { message: "Licence Document is required" },
                             },
                         },
-                        licence_Date: {
+                        KTModalDriver_licence_Date: {
                             validators: {
-                                notEmpty: { message: "Licence Date  is required" },
+                                notEmpty: { message: "Licence Date is required" },
                             },
                         },
-                        Experience: {
+                        KTModalDriver_Experience: {
                             validators: {
                                 notEmpty: { message: "Experience is required" },
                             },
                         },
-                        Available: {
+                        KTModalDriver_Available: {
                             validators: {
-                                notEmpty: { message: "Please Checked The Driver Availibility" },
+                                notEmpty: { message: "Please Check The Driver Availability" },
                             },
                         },
                        
@@ -128,13 +125,11 @@ var KTModalNewAddress = (function () {
                 }));
                 $("#employee").change(function () {
                     // Revalidate the field when an option is chosen
-                    n.revalidateField('Employee1');
+                    n.revalidateField('KTModalDriver_Employee1');
                 });
         },
     };
 })();
 KTUtil.onDOMContentLoaded(function () {
-    KTModalNewAddress.init();
+    KTModalDriver.init();
 });
-
-
