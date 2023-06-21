@@ -56,203 +56,203 @@
 					<div class="card-body ">
 						<!--begin::Table-->
 						<div class="table-responsive">
-						<table class="table align-middle table-row-dashed fs-6 gy-3" >
-							<!--begin::Table head-->
-							<thead>
-								<!--begin::Table row-->
-								<tr class="text-start text-gray-400 fw-bolder fs-7 text-uppercase gs-0">
-									<th class="min-w-100px text-center">Driver </th>
-									<th class="text-center min-w-150px ">Licence No</th>
-									<th class="text-center min-w-150px">Licence Document</th>
-									<th class="text-center min-w-150px ">Licence Expiry date</th>
-									<th class="text-end min-w-100px">Employee</th>
-									<th class="text-center min-w-100px">Status</th>
+							<table class="table align-middle table-row-dashed fs-6 gy-3">
+								<!--begin::Table head-->
+								<thead>
+									<!--begin::Table row-->
+									<tr class="text-start text-gray-400 fw-bolder fs-7 text-uppercase gs-0">
+										<th class="min-w-100px text-center">Driver </th>
+										<th class="text-center min-w-150px ">Licence No</th>
+										<th class="text-center min-w-150px">Licence Document</th>
+										<th class="text-center min-w-150px ">Licence Expiry date</th>
+										<th class="text-end min-w-100px">Employee</th>
+										<th class="text-center min-w-100px">Status</th>
 
-								</tr>
-								<!--end::Table row-->
-							</thead>
-							<!--end::Table head-->
-							<!--begin::Table body-->
-							<tbody class="fw-bolder text-gray-600">
-								
-								<tr>
-									<td>
-										<div class="d-flex align-items-center">
-											<div class="symbol symbol-50px me-3 ">
-												<img src="{{asset('static/media/avatars/300-1.jpg')}}" class="" alt="" />
+									</tr>
+									<!--end::Table row-->
+								</thead>
+								<!--end::Table head-->
+								<!--begin::Table body-->
+								<tbody class="fw-bolder text-gray-600">
+
+									<tr>
+										<td>
+											<div class="d-flex align-items-center">
+												<div class="symbol symbol-50px me-3 ">
+													<img src="{{asset('static/media/avatars/300-1.jpg')}}" class="" alt="" />
 
 
+												</div>
+												<div class="d-flex justify-content-start flex-column">
+													<a href="Driver_Detail" class="text-gray-800 fw-bolder text-hover-primary mb-1 fs-6">Ahmed</a>
+													<span class="text-gray-400 fw-bold d-block fs-7">Ahmed@gmail.com</span>
+												</div>
 											</div>
-											<div class="d-flex justify-content-start flex-column">
-												<a href="Driver_Detail" class="text-gray-800 fw-bolder text-hover-primary mb-1 fs-6">Ahmed</a>
-												<span class="text-gray-400 fw-bold d-block fs-7">Ahmed@gmail.com</span>
+										</td>
+
+
+										<!--begin::Product ID-->
+										<td class="text-center">#AGXG903297</td>
+										<!--end::Product ID-->
+										<!--begin::Date added-->
+										<td class="text-center">KASJKSKLM</td>
+										<td class="text-center">02 Apr, 2022</td>
+										<!--begin::Price-->
+										<td class="text-end">Ali Ahmed</td>
+										<!--end::Price-->
+										<!--begin::Status-->
+										<td class="text-end">
+											<span class="badge py-3 px-4 fs-7 badge-light-primary">Available</span>
+										</td>
+										<!--end::Status-->
+										<!--begin::Qty-->
+
+
+										<!--end::Qty-->
+									</tr>
+
+									<tr>
+										<td>
+											<div class="d-flex align-items-center">
+												<div class="symbol symbol-50px me-3 ">
+													<img src="{{asset('static/media/avatars/300-11.jpg')}}" class="" alt="" />
+
+
+												</div>
+												<div class="d-flex justify-content-start flex-column">
+													<a href="Driver_Detail" class="text-gray-800 fw-bolder text-hover-primary mb-1 fs-6">Ahmed</a>
+													<span class="text-gray-400 fw-bold d-block fs-7">Ahmed@gmail.com</span>
+												</div>
 											</div>
-										</div>
-									</td>
+										</td>
 
 
-									<!--begin::Product ID-->
-									<td class="text-center">#AGXG903297</td>
-									<!--end::Product ID-->
-									<!--begin::Date added-->
-									<td class="text-center">KASJKSKLM</td>
-									<td class="text-center">02 Apr, 2022</td>
-									<!--begin::Price-->
-									<td class="text-end">Ali Ahmed</td>
-									<!--end::Price-->
-									<!--begin::Status-->
-									<td class="text-end">
-										<span class="badge py-3 px-4 fs-7 badge-light-primary">Available</span>
-									</td>
-									<!--end::Status-->
-									<!--begin::Qty-->
+										<!--begin::Product ID-->
+										<td class="text-center">#AGXG903297</td>
+										<!--end::Product ID-->
+										<!--begin::Date added-->
+										<td class="text-center">KASJKSKLM</td>
+										<td class="text-center">02 Apr, 2022</td>
+										<!--begin::Price-->
+										<td class="text-end">Junaid</td>
+										<!--end::Price-->
+										<!--begin::Status-->
+										<td class="text-end">
+											<span class="badge py-3 px-4 fs-7 badge-light-primary">Available</span>
+										</td>
+										<!--end::Status-->
+										<!--begin::Qty-->
 
 
-									<!--end::Qty-->
-								</tr>
+										<!--end::Qty-->
+									</tr>
+									<tr>
+										<td>
+											<div class="d-flex align-items-center">
+												<div class="symbol symbol-50px me-3 ">
+													<img src="{{asset('static/media/avatars/300-13.jpg')}}" class="" alt="" />
 
-								<tr>
-								<td>
-										<div class="d-flex align-items-center">
-											<div class="symbol symbol-50px me-3 ">
-												<img src="{{asset('static/media/avatars/300-11.jpg')}}" class="" alt="" />
 
-
+												</div>
+												<div class="d-flex justify-content-start flex-column">
+													<a href="Driver_Detail" class="text-gray-800 fw-bolder text-hover-primary mb-1 fs-6">Ahmed</a>
+													<span class="text-gray-400 fw-bold d-block fs-7">Ahmed@gmail.com</span>
+												</div>
 											</div>
-											<div class="d-flex justify-content-start flex-column">
-												<a href="Driver_Detail" class="text-gray-800 fw-bolder text-hover-primary mb-1 fs-6">Ahmed</a>
-												<span class="text-gray-400 fw-bold d-block fs-7">Ahmed@gmail.com</span>
+										</td>
+
+
+										<!--begin::Product ID-->
+										<td class="text-center">#AGXG903297</td>
+										<!--end::Product ID-->
+										<!--begin::Date added-->
+										<td class="text-center">KASJKSKLM</td>
+										<td class="text-center">02 Apr, 2022</td>
+										<!--begin::Price-->
+										<td class="text-end">hamza</td>
+										<!--end::Price-->
+										<!--begin::Status-->
+										<td class="text-end">
+											<span class="badge py-3 px-4 fs-7 badge-light-primary">Available</span>
+										</td>
+										<!--end::Status-->
+										<!--begin::Qty-->
+
+
+										<!--end::Qty-->
+									</tr>
+									<tr>
+										<td>
+											<div class="d-flex align-items-center">
+												<div class="symbol symbol-50px me-3 ">
+													<img src="{{asset('static/media/avatars/300-10.jpg')}}" class="" alt="" />
+
+
+												</div>
+												<div class="d-flex justify-content-start flex-column">
+													<a href="Driver_Detail" class="text-gray-800 fw-bolder text-hover-primary mb-1 fs-6">Ahmed</a>
+													<span class="text-gray-400 fw-bold d-block fs-7">Ahmed@gmail.com</span>
+												</div>
 											</div>
-										</div>
-									</td>
+										</td>
+
+										<!--begin::Product ID-->
+										<td class="text-center">#AGXG903297</td>
+										<!--end::Product ID-->
+										<!--begin::Date added-->
+										<td class="text-center">KASJKSKLM</td>
+										<td class="text-center">02 Apr, 2022</td>
+										<!--begin::Price-->
+										<td class="text-end">Ali Ahmed</td>
+										<!--end::Price-->
+										<!--begin::Status-->
+										<td class="text-end">
+											<span class="badge py-3 px-4 fs-7 badge-light-primary">Available</span>
+										</td>
+										<!--end::Status-->
+										<!--begin::Qty-->
 
 
-									<!--begin::Product ID-->
-									<td class="text-center">#AGXG903297</td>
-									<!--end::Product ID-->
-									<!--begin::Date added-->
-									<td class="text-center">KASJKSKLM</td>
-									<td class="text-center">02 Apr, 2022</td>
-									<!--begin::Price-->
-									<td class="text-end">Junaid</td>
-									<!--end::Price-->
-									<!--begin::Status-->
-									<td class="text-end">
-										<span class="badge py-3 px-4 fs-7 badge-light-primary">Available</span>
-									</td>
-									<!--end::Status-->
-									<!--begin::Qty-->
+										<!--end::Qty-->
+									</tr>
+									<tr>
+										<td>
+											<div class="d-flex align-items-center">
+												<div class="symbol symbol-50px me-3 ">
+													<img src="{{asset('static/media/avatars/300-13.jpg')}}" class="" alt="" />
 
 
-									<!--end::Qty-->
-								</tr>
-								<tr>
-								<td>
-										<div class="d-flex align-items-center">
-											<div class="symbol symbol-50px me-3 ">
-												<img src="{{asset('static/media/avatars/300-13.jpg')}}" class="" alt="" />
-
-
+												</div>
+												<div class="d-flex justify-content-start flex-column">
+													<a href="Driver_Detail" class="text-gray-800 fw-bolder text-hover-primary mb-1 fs-6">Ahmed</a>
+													<span class="text-gray-400 fw-bold d-block fs-7">Ahmed@gmail.com</span>
+												</div>
 											</div>
-											<div class="d-flex justify-content-start flex-column">
-												<a href="Driver_Detail" class="text-gray-800 fw-bolder text-hover-primary mb-1 fs-6">Ahmed</a>
-												<span class="text-gray-400 fw-bold d-block fs-7">Ahmed@gmail.com</span>
-											</div>
-										</div>
-									</td>
+										</td>
 
 
-									<!--begin::Product ID-->
-									<td class="text-center">#AGXG903297</td>
-									<!--end::Product ID-->
-									<!--begin::Date added-->
-									<td class="text-center">KASJKSKLM</td>
-									<td class="text-center">02 Apr, 2022</td>
-									<!--begin::Price-->
-									<td class="text-end">hamza</td>
-									<!--end::Price-->
-									<!--begin::Status-->
-									<td class="text-end">
-										<span class="badge py-3 px-4 fs-7 badge-light-primary">Available</span>
-									</td>
-									<!--end::Status-->
-									<!--begin::Qty-->
+										<!--begin::Product ID-->
+										<td class="text-center">#AGXG903297</td>
+										<!--end::Product ID-->
+										<!--begin::Date added-->
+										<td class="text-center">KASJKSKLM</td>
+										<td class="text-center">02 Apr, 2022</td>
+										<!--begin::Price-->
+										<td class="text-end">Ali Ahmed</td>
+										<!--end::Price-->
+										<!--begin::Status-->
+										<td class="text-end">
+											<span class="badge py-3 px-4 fs-7 badge-light-primary">Available</span>
+										</td>
+										<!--end::Status-->
+										<!--begin::Qty-->
 
 
-									<!--end::Qty-->
-								</tr>
-								<tr>
-								<td>
-										<div class="d-flex align-items-center">
-											<div class="symbol symbol-50px me-3 ">
-												<img src="{{asset('static/media/avatars/300-10.jpg')}}" class="" alt="" />
-
-
-											</div>
-											<div class="d-flex justify-content-start flex-column">
-												<a href="Driver_Detail" class="text-gray-800 fw-bolder text-hover-primary mb-1 fs-6">Ahmed</a>
-												<span class="text-gray-400 fw-bold d-block fs-7">Ahmed@gmail.com</span>
-											</div>
-										</div>
-									</td>
-
-									<!--begin::Product ID-->
-									<td class="text-center">#AGXG903297</td>
-									<!--end::Product ID-->
-									<!--begin::Date added-->
-									<td class="text-center">KASJKSKLM</td>
-									<td class="text-center">02 Apr, 2022</td>
-									<!--begin::Price-->
-									<td class="text-end">Ali Ahmed</td>
-									<!--end::Price-->
-									<!--begin::Status-->
-									<td class="text-end">
-										<span class="badge py-3 px-4 fs-7 badge-light-primary">Available</span>
-									</td>
-									<!--end::Status-->
-									<!--begin::Qty-->
-
-
-									<!--end::Qty-->
-								</tr>
-								<tr>
-								<td>
-										<div class="d-flex align-items-center">
-											<div class="symbol symbol-50px me-3 ">
-												<img src="{{asset('static/media/avatars/300-13.jpg')}}" class="" alt="" />
-
-
-											</div>
-											<div class="d-flex justify-content-start flex-column">
-												<a href="Driver_Detail" class="text-gray-800 fw-bolder text-hover-primary mb-1 fs-6">Ahmed</a>
-												<span class="text-gray-400 fw-bold d-block fs-7">Ahmed@gmail.com</span>
-											</div>
-										</div>
-									</td>
-
-
-									<!--begin::Product ID-->
-									<td class="text-center">#AGXG903297</td>
-									<!--end::Product ID-->
-									<!--begin::Date added-->
-									<td class="text-center">KASJKSKLM</td>
-									<td class="text-center">02 Apr, 2022</td>
-									<!--begin::Price-->
-									<td class="text-end">Ali Ahmed</td>
-									<!--end::Price-->
-									<!--begin::Status-->
-									<td class="text-end">
-										<span class="badge py-3 px-4 fs-7 badge-light-primary">Available</span>
-									</td>
-									<!--end::Status-->
-									<!--begin::Qty-->
-
-
-									<!--end::Qty-->
-								</tr>
-							</tbody>
-							<!--end::Table body-->
-						</table>
+										<!--end::Qty-->
+									</tr>
+								</tbody>
+								<!--end::Table body-->
+							</table>
 						</div>
 						<!--end::Table-->
 					</div>
@@ -308,7 +308,7 @@
 					<!--begin::Modal body-->
 					<div class="modal-body py-10 px-lg-13">
 						<!--begin::Scroll-->
-						<div class="scroll-y me-n7 pe-7" id="KTModalDriver_scroll"  data-kt-scroll-activate="{default: false, lg: true}" data-kt-scroll-max-height="auto" data-kt-scroll-dependencies="#KTModalDriver_header" data-kt-scroll-wrappers="#KTModalDriver_scroll" data-kt-scroll-offset="300px">
+						<div class="scroll-y me-n7 pe-7" id="KTModalDriver_scroll" data-kt-scroll-activate="{default: false, lg: true}" data-kt-scroll-max-height="auto" data-kt-scroll-dependencies="#KTModalDriver_header" data-kt-scroll-wrappers="#KTModalDriver_scroll" data-kt-scroll-offset="300px">
 							<!--begin::Notice-->
 							<!--begin::Notice-->
 
@@ -342,9 +342,19 @@
 
 
 
+
 								<!--end::Col-->
 							</div>
-
+							<!--begin::Input group-->
+							<div class="d-flex flex-column mb-8 fv-row">
+								<!--begin::Label-->
+								<label class="d-flex align-items-center fs-6 fw-bold mb-2">
+									<span class="required">Tags</span>
+									<i class="fas fa-exclamation-circle ms-2 fs-7" data-bs-toggle="tooltip" title="Specify a target priorty"></i>
+								</label>
+								<!--end::Label-->
+								<input class="form-control form-control-solid" value="Important, Urgent" name="KTModalDriver_target_tags" />
+							</div>
 							<div class="row g-9 mb-10">
 								<!--begin::Col-->
 								<div class="col-md-6 fv-row">
@@ -451,34 +461,34 @@
 
 
 <script>
-    const optionFormat = (item) => {
-    if (!item.id) {
-        return item.text;
-    }
+	const optionFormat = (item) => {
+		if (!item.id) {
+			return item.text;
+		}
 
-    var span = document.createElement('span');
-    var template = '';
+		var span = document.createElement('span');
+		var template = '';
 
-    template += '<div class="d-flex align-items-center">';
-    template += '<img src="' + item.element.getAttribute('data-kt-rich-content-icon') + '" class="rounded-circle h-40px me-3" alt="' + item.text + '"/>';
-    template += '<div class="d-flex flex-column">'
-    template += '<span class="fs-4 fw-bolder lh-1">' + item.text + '</span>';
-    template += '<span class="text-muted fs-5">' + item.element.getAttribute('data-kt-rich-content-subcontent') + '</span>';
-    template += '</div>';
-    template += '</div>';
+		template += '<div class="d-flex align-items-center">';
+		template += '<img src="' + item.element.getAttribute('data-kt-rich-content-icon') + '" class="rounded-circle h-40px me-3" alt="' + item.text + '"/>';
+		template += '<div class="d-flex flex-column">'
+		template += '<span class="fs-4 fw-bolder lh-1">' + item.text + '</span>';
+		template += '<span class="text-muted fs-5">' + item.element.getAttribute('data-kt-rich-content-subcontent') + '</span>';
+		template += '</div>';
+		template += '</div>';
 
-    span.innerHTML = template;
+		span.innerHTML = template;
 
-    return $(span);
-}
+		return $(span);
+	}
 
-// Init Select2 --- more info: https://select2.org/
-$('#employee').select2({
-    placeholder: "Select an option",
-    minimumResultsForSearch: Infinity,
-    templateSelection: optionFormat,
-    templateResult: optionFormat
-});
+	// Init Select2 --- more info: https://select2.org/
+	$('#employee').select2({
+		placeholder: "Select an option",
+		minimumResultsForSearch: Infinity,
+		templateSelection: optionFormat,
+		templateResult: optionFormat
+	});
 </script>
 
 /

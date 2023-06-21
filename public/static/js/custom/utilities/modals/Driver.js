@@ -7,8 +7,7 @@ var KTModalDriver = (function () {
                 ((i = new bootstrap.Modal(r)),
                 (o = document.querySelector("#KTModalDriver_form")),
                 (t = document.getElementById("KTModalDriver_submit")),
-                (e = document.getElementById("KTModalDriver_cancel")),
-                
+                (e = document.getElementById("KTModalDriver_cancel")),   
                 (n = FormValidation.formValidation(o, {
                     fields: {
                         KTModalDriver_Employee1: {
@@ -30,6 +29,13 @@ var KTModalDriver = (function () {
                         KTModalDriver_licence_Date: {
                             validators: {
                                 notEmpty: { message: "Licence Date is required" },
+                            },
+                        },
+                        KTModalDriver_target_tags: {
+                            validators: {
+                                notEmpty: {
+                                    message: "Target tags are required",
+                                },
                             },
                         },
                         KTModalDriver_Experience: {

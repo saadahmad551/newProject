@@ -182,7 +182,7 @@
 					<h3>Profile Details</h3>
 				</div>
 				<!--end::Heading-->
-				<a href="#" class="btn btn-primary align-self-center" data-bs-toggle="modal" data-bs-target="#kt_modal_new_address">Edit Profile</a>
+				<a href="#" class="btn btn-primary align-self-center" data-bs-toggle="modal" data-bs-target="#KTModalDriver">Edit Profile</a>
 
 			</div>
 			<!--end::Card header-->
@@ -478,7 +478,7 @@
 </div>
 
 
-<div class="modal fade" id="kt_modal_new_address" tabindex="-1" aria-hidden="true">
+<div class="modal fade" id="KTModalDriver" tabindex="-1" aria-hidden="true">
 	<!--begin::Modal dialog-->
 	<div class="modal-dialog modal-dialog-centered mw-750px ">
 		<!--begin::Modal content-->
@@ -502,7 +502,7 @@
 			<!--begin::Heading-->
 			<div class="my-1 text-center">
 				<!--begin::Title-->
-				<h1 class="mb-3">Edit Driver Profile</h1>
+				<h1 class="mb-3">Edit Driver Detail</h1>
 				<!--end::Title-->
 
 			</div>
@@ -511,14 +511,14 @@
 			<!--begin::Modal body-->
 			<div class="modal-body  pt-0 ">
 				<!--begin:Form-->
-				<form class="form" action="#" id="kt_modal_new_address_form">
+				<form class="form" action="#" id="KTModalDriver_form">
 					<!--begin::Modal header-->
 
 					<!--end::Modal header-->
 					<!--begin::Modal body-->
 					<div class="modal-body py-10 px-lg-13">
 						<!--begin::Scroll-->
-						<div class="scroll-y me-n7 pe-7" id="kt_modal_new_address_scroll"  data-kt-scroll-activate="{default: false, lg: true}" data-kt-scroll-max-height="auto" data-kt-scroll-dependencies="#kt_modal_new_address_header" data-kt-scroll-wrappers="#kt_modal_new_address_scroll" data-kt-scroll-offset="300px">
+						<div class="scroll-y me-n7 pe-7" id="KTModalDriver_scroll"  data-kt-scroll-activate="{default: false, lg: true}" data-kt-scroll-max-height="auto" data-kt-scroll-dependencies="#KTModalDriver_header" data-kt-scroll-wrappers="#KTModalDriver_scroll" data-kt-scroll-offset="300px">
 							<!--begin::Notice-->
 							<!--begin::Notice-->
 
@@ -536,7 +536,7 @@
 										<!--end::Label-->
 										<!--begin::Select-->
 										<div class="border rounded">
-											<select id="employee" class="form-select form-select-solid" name="Employee1" data-placeholder="Select Employee">
+											<select id="employee" class="form-select form-select-solid" name="KTModalDriver_Employee1" data-placeholder="Select Employee">
 												<option></option>
 												<option value="0" data-kt-rich-content-subcontent="asad@gmail.com" data-kt-rich-content-icon="{{ asset('static/media/avatars/300-6.jpg') }}">Asad</option>
 												<option value="1" data-kt-rich-content-subcontent="ahmed@gmail.com" data-kt-rich-content-icon="{{ asset('static/media/avatars/300-7.jpg') }}">Ahmed</option>
@@ -563,7 +563,7 @@
 										<span class="required">Licence Number</span>
 									</label>
 									<!--end::Label-->
-									<input type="text" class="form-control form-control-solid" placeholder="Enter Licence Number" name="Licence" />
+									<input type="text" class="form-control form-control-solid" placeholder="Enter Licence Number" name="KTModalDriver_Licence" />
 								</div>
 								<!--end::Col-->
 								<!--begin::Col-->
@@ -573,7 +573,7 @@
 										<span class="required">Licence Document</span>
 									</label>
 									<!--end::Label-->
-									<input type="file" class="form-control form-control-solid" placeholder="Enter Licence Document" name="Licence_Document" />
+									<input type="file" class="form-control form-control-solid" placeholder="Enter Licence Document" name="KTModalDriver_Licence_Document" />
 								</div>
 								<!--end::Col-->
 							</div>
@@ -588,7 +588,7 @@
 									<div class="position-relative d-flex align-items-center">
 
 										<!--begin::Datepicker-->
-										<input class="form-control form-control-solid ps-12" placeholder="Select a date" name="licence_Date" type="date" />
+										<input class="form-control form-control-solid ps-12" placeholder="Select a date" name="KTModalDriver_licence_Date" type="date" />
 										<!--end::Datepicker-->
 									</div>
 									<!--end::Input-->
@@ -599,7 +599,7 @@
 										<span class="required">Experience</span>
 									</label>
 									<!--end::Label-->
-									<input type="text" class="form-control form-control-solid" placeholder="Enter Experience " name="Experience" />
+									<input type="text" class="form-control form-control-solid" placeholder="Enter Experience " name="KTModalDriver_Experience" />
 								</div>
 
 							</div>
@@ -632,10 +632,10 @@
 					<!--begin::Modal footer-->
 					<div class="modal-footer flex-center" style="padding: 1.5rem !important;">
 						<!--begin::Button-->
-						<button type="reset" id="kt_modal_new_address_cancel" class="btn btn-light me-3">Discard</button>
+						<button type="reset" id="KTModalDriver_cancel" class="btn btn-light me-3">Discard</button>
 						<!--end::Button-->
 						<!--begin::Button-->
-						<button type="submit" id="kt_modal_new_address_submit" class="btn btn-primary">
+						<button type="submit" id="KTModalDriver_submit" class="btn btn-primary">
 							<span class="indicator-label">Submit</span>
 							<span class="indicator-progress">Please wait...
 								<span class="spinner-border spinner-border-sm align-middle ms-2"></span></span>
@@ -650,6 +650,7 @@
 		</div>
 	</div>
 </div>
+
 <!--end::Post-->
 
 @endsection
