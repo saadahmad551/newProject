@@ -77,10 +77,10 @@
                             <div class="row mt-15">
                                 <div class="card-Fluid   rounded-pill " style="background-color:  #344767">
                                     <div class="px-10 py-5">
-                                        <h3 class=" fw-bolder text-white fs-4">Milage:<span
-                                                class="fs-2qx">15km/lit</span>
+                                        <h3 class=" fw-bolder text-white fs-4">Milage : <span
+                                                class="fs-1qx">  15km/lit</span>
                                         </h3>
-                                        <div class="fs-4 fw-bold text-white ">Temperature:<span class="fs-2qx">
+                                        <div class="fs-4 fw-bold text-white ">Temperature:<span class="fs-1qx">
                                                 7*C</span>
                                         </div>
                                     </div>
