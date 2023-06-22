@@ -1,60 +1,54 @@
 "use strict";
-var KTModalNewAddress = (function () {
+var KTModalDriver = (function () {
     var t, e, n, o, i, r;
     return {
         init: function () {
-            (r = document.querySelector("#kt_modal_new_address")) &&
+            (r = document.querySelector("#KTModalDriver")) &&
                 ((i = new bootstrap.Modal(r)),
-                (o = document.querySelector("#kt_modal_new_address_form")),
-                (t = document.getElementById("kt_modal_new_address_submit")),
-                (e = document.getElementById("kt_modal_new_address_cancel")),
-                $(o.querySelector('[name="country"]'))
-                    .select2()
-                    .on("change", function () {
-                        n.revalidateField("country");
-                    }),
+                (o = document.querySelector("#KTModalDriver_form")),
+                (t = document.getElementById("KTModalDriver_submit")),
+                (e = document.getElementById("KTModalDriver_cancel")),   
                 (n = FormValidation.formValidation(o, {
                     fields: {
-                        "first-name": {
+                        KTModalDriver_Employee1: {
                             validators: {
-                                notEmpty: { message: "First name is required" },
+                                notEmpty: { message: "Employee is required" },
                             },
                         },
-                        "last-name": {
+                      
+                        KTModalDriver_Licence: {
                             validators: {
-                                notEmpty: { message: "Last name is required" },
+                                notEmpty: { message: "Licence Number is required" },
                             },
                         },
-                        country: {
+                        KTModalDriver_Licence_Document: {
                             validators: {
-                                notEmpty: { message: "Country is required" },
+                                notEmpty: { message: "Licence Document is required" },
                             },
                         },
-                        address1: {
+                        KTModalDriver_licence_Date: {
                             validators: {
-                                notEmpty: { message: "Address 1 is required" },
+                                notEmpty: { message: "Licence Date is required" },
                             },
                         },
-                        address2: {
+                        KTModalDriver_target_tags: {
                             validators: {
-                                notEmpty: { message: "Address 2 is required" },
+                                notEmpty: {
+                                    message: "Target tags are required",
+                                },
                             },
                         },
-                        city: {
+                        KTModalDriver_Experience: {
                             validators: {
-                                notEmpty: { message: "City is required" },
+                                notEmpty: { message: "Experience is required" },
                             },
                         },
-                        state: {
+                        KTModalDriver_Available: {
                             validators: {
-                                notEmpty: { message: "State is required" },
+                                notEmpty: { message: "Please Check The Driver Availability" },
                             },
                         },
-                        postcode: {
-                            validators: {
-                                notEmpty: { message: "Postcode is required" },
-                            },
-                        },
+                       
                     },
                     plugins: {
                         trigger: new FormValidation.plugins.Trigger(),
@@ -135,9 +129,13 @@ var KTModalNewAddress = (function () {
                                   });
                         });
                 }));
+                $("#employee").change(function () {
+                    // Revalidate the field when an option is chosen
+                    n.revalidateField('KTModalDriver_Employee1');
+                });
         },
     };
 })();
 KTUtil.onDOMContentLoaded(function () {
-    KTModalNewAddress.init();
+    KTModalDriver.init();
 });

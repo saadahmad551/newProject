@@ -5,7 +5,7 @@ var hostUrl = "assets/";
 <!--begin::Global Javascript Bundle(used by all pages)-->
 <script src="{{ asset('static/plugins/global/plugins.bundle.js') }}"></script>
 <script src="{{ asset('static/js/scripts.bundle.js') }}"></script>
-<!-- <script src="{{ asset('static/plugins/custom/datatables/datatables.bundle.js') }}"></script> -->
+<script src="{{ asset('static/plugins/custom/datatables/datatables.bundle.js') }}"></script>
 <!--end::Global Javascript Bundle-->
 <!--begin::Page Vendors Javascript(used by all pages)-->
 
@@ -18,9 +18,7 @@ var hostUrl = "assets/";
 <script src="{{ asset('static/js/custom/apps/user-management/users/list/export-users.js') }}"></script>
 <script src="{{ asset('static/js/custom/apps/user-management/users/list/add.js') }}"></script> -->
 <script src="{{ asset('static/js/custom/widgets.js') }}"></script>
-<!-- <script src="{{ asset('static/js/custom/utilities/modals/upgrade-plan.js') }}"></script> -->
 <script src="{{ asset('static/js/custom/utilities/modals/create-app.js') }}"></script>
-<script src="{{ asset('static/js/custom/utilities/modals/users-search.js') }}"></script>
 
 <!--begin::Page Custom Javascript(used by ViewUser)-->
 <!-- <script src="{{ asset('static/js/custom/apps/user-management/users/view/update-details.js') }}"></script> -->
@@ -30,10 +28,14 @@ var hostUrl = "assets/";
 <!-- <script src="{{ asset('static/js/custom/apps/user-management/users/view/update-role.js') }}"></script> -->
 <script src="{{ asset('static/js/custom/apps/user-management/users/view/add-auth-app.js') }}"></script>
 <script src="{{ asset('static/js/widgets.bundle.js') }}"></script>
+<script src="{{ asset('static/js/widgets.js') }}"></script>
 <script src="{{ asset('static/js/custom/apps/chat/chat.js') }}"></script>
 <script src="{{ asset('static/js/custom/utilities/modals/upgrade-plan.js') }}"></script>
 <script src="{{ asset('static/js/custom/utilities/modals/create-app.js') }}"></script>
 <script src="{{ asset('static/js/custom/utilities/modals/users-search.js') }}"></script>
+
+<script src="{{ asset('static/js/custom/utilities/modals/new-address.js') }}"></script>
+
 
 <!--begin::Page Custom Javascript(used by Role List)-->
 <script src="{{ asset('static/js/custom/apps/user-management/roles/list/add.js') }}"></script>
@@ -59,16 +61,12 @@ var hostUrl = "assets/";
 <script src="https://cdn.amcharts.com/lib/5/geodata/worldTimeZonesLow.js"></script>
 <script src="https://cdn.amcharts.com/lib/5/geodata/worldTimeZoneAreasLow.js"></script>
 <script src="https://cdn.amcharts.com/lib/5/themes/Animated.js"></script>
-
-
-<script src="{{ asset('static/plugins/global/plugins.bundle.js') }}"></script>
-<script src="{{ asset('plugins/custom/datatables/datatables.bundle.js') }}"></script>
-
-
 <!--begin::Page Custom Javascript(used by Sign-up)-->
 <script src="{{ asset('static/js/custom/utilities/modals/create-account.js') }}"></script>
-
-
+<script src="{{ asset('static/js/custom/utilities/modals/new-target.js') }}"></script>
+<script src="{{ asset('static/js/custom/utilities/modals/Fuel.js') }}"></script>
+<script src="{{ asset('static/js/custom/utilities/modals/mentainence.js') }}"></script>
+<script src="{{ asset('static/js/custom/utilities/modals/Driver.js') }}"></script>
 
 <script>
     const countriesSelect = document.getElementById("countries");
@@ -178,6 +176,8 @@ am5.ready(function() {
 
 }); // end am5.ready()
 </script>
+
+
 
 
 <!--end::Page Custom Javascript-->

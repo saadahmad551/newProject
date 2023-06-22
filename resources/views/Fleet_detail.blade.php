@@ -11,7 +11,7 @@
     <!--begin::Container-->
     <div id="kt_content_container" class="container-xxl">
 
-        <h1 class="fs-lg-2x  pb-7 px-2">Fleet Details</h1>
+        <h1 class="fs-lg-2x  pb-7 px-2">Fleet Details </h1>
         <div class="col-lg-12  py-10">
             <!--begin::Engage widget 8-->
             <div class="card h-md-100   " style="background-color: #D2DCF0">
