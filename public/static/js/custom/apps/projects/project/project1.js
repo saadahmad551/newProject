@@ -8,23 +8,23 @@ var KTProjectOverview = (function () {
         n = KTUtil.getCssVariableValue("--bs-gray-500");
 
     var initialized = false; // Variable to track initialization
-    var myDataTable; // Reference to the DataTable instance
+    var table; // Reference to the DataTable instance
 
     return {
         init: function () {
             if (initialized) {
-                // Destroy the DataTable if already initialized
-                myDataTable.destroy();
+                // DataTable is already initialized
+                return;
             }
 
             var s, i;
 
-            // Chart initialization code...
+            // Chart initialization code
 
-            // ApexCharts initialization code...
+            // ...
 
-            // Table initialization code...
-            myDataTable = $("#kt_profile_overview_table").DataTable({
+            // Table initialization code
+            table = $("#kt_profile_overview_table").DataTable({
                 info: false,
                 order: [],
                 columns: [
@@ -38,9 +38,12 @@ var KTProjectOverview = (function () {
                 ],
             });
 
-            myDataTable.column(0).visible(true); // Show the additional column
+            table.column(0).visible(true); // Show the additional column
 
-            // Search functionality...
+            // Search functionality
+            document.getElementById("kt_filter_search").addEventListener("keyup", function (event) {
+                table.search(event.target.value).draw();
+            });
 
             initialized = true; // Set initialized flag to true after initialization
         },

@@ -33,19 +33,45 @@
 
 						<div class="card-toolbar ">
 							<!--begin::Daterangepicker(defined in src/js/layout/app.js)-->
-							<a href="#" class="btn btn-primary er fs-6 px-8 py-4" data-bs-toggle="modal" data-bs-target="#kt_modal_new_address">Add  Vehicle Mentainence</a>
 							<!--end::Daterangepicker-->
+
+							<div class="position-relative my-1  me-7">
+
+								<!--begin::Svg Icon | path: icons/duotune/general/gen021.svg-->
+								<span class="svg-icon svg-icon-2 position-absolute top-50 translate-middle-y ms-4">
+									<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+										<rect opacity="0.5" x="17.0365" y="15.1223" width="8.15546" height="2" rx="1" transform="rotate(45 17.0365 15.1223)" fill="currentColor" />
+										<path d="M11 19C6.55556 19 3 15.4444 3 11C3 6.55556 6.55556 3 11 3C15.4444 3 19 6.55556 19 11C19 15.4444 15.4444 19 11 19ZM11 5C7.53333 5 5 7.53333 5 11C5 14.4667 7.53333 17 11 17C14.4667 17 17 14.4667 17 11C17 7.53333 14.4667 5 11 5Z" fill="currentColor" />
+									</svg>
+								</span>
+								<!--end::Svg Icon-->
+								<input type="text" id="kt_filter_search" class="form-control w-150px fs-7 ps-12" placeholder="Search" style="width: 200px!important;" />
+
+							</div>
+							<!--begin::Daterangepicker(defined in src/js/layout/app.js)-->
+							<!--end::Daterangepicker-->
+							<a href="#" class="btn btn-primary er fs-6 px-8 py-4" data-bs-toggle="modal" data-bs-target="#kt_modal_new_address">Add Vehicle Mentainence</a>
+
+
+
+
 						</div>
 
 					</div>
 					<!--end::Header-->
 					<div class="card-body">
 						<!--begin::Table-->
-						<table class="table align-middle table-row-dashed fs-6 gy-3" id="kt_table_widget_5_table">
+						<table class="table align-middle table-row-dashed fs-6 gy-3" id="myTable">
 							<!--begin::Table head-->
 							<thead>
+
 								<!--begin::Table row-->
 								<tr class="text-start text-gray-400 fw-bolder fs-7 text-uppercase gs-0">
+									<th class="w-25px">
+										<div class="form-check form-check-sm form-check-custom form-check-solid">
+											<input class="form-check-input" type="checkbox" value="1" data-kt-check="true" data-kt-check-target=".widget-9-check" />
+										</div>
+									</th>
 									<th class="  pb-3  text-center">Vehicle</th>
 
 									<th class="text-end pe-3 min-w-80px">Employee</th>
@@ -65,6 +91,11 @@
 							<!--begin::Table body-->
 							<tbody class="fw-bolder text-gray-600">
 								<tr>
+									<td>
+										<div class="form-check form-check-sm form-check-custom form-check-solid">
+											<input class="form-check-input widget-9-check" type="checkbox" value="1" />
+										</div>
+									</td>
 									<td>
 										<div class="d-flex align-items-center">
 											<div class="symbol symbol-70px me-3 ">
@@ -100,6 +131,11 @@
 								</tr>
 								<tr>
 									<td>
+										<div class="form-check form-check-sm form-check-custom form-check-solid">
+											<input class="form-check-input widget-9-check" type="checkbox" value="1" />
+										</div>
+									</td>
+									<td>
 										<div class="d-flex align-items-center">
 											<div class="symbol symbol-70px me-3 ">
 												<img src="{{asset('static/media\Fleet\images-2.jpg')}}" class="" alt="" />
@@ -134,6 +170,11 @@
 								</tr>
 								<tr>
 									<td>
+										<div class="form-check form-check-sm form-check-custom form-check-solid">
+											<input class="form-check-input widget-9-check" type="checkbox" value="1" />
+										</div>
+									</td>
+									<td>
 										<div class="d-flex align-items-center">
 											<div class="symbol symbol-70px me-3 ">
 												<img src="{{asset('static/media\Fleet\images-4.jpg')}}" class="" alt="" />
@@ -167,7 +208,13 @@
 									<!--end::Qty-->
 								</tr>
 
+
 								<tr>
+									<td>
+										<div class="form-check form-check-sm form-check-custom form-check-solid">
+											<input class="form-check-input widget-9-check" type="checkbox" value="1" />
+										</div>
+									</td>
 									<td>
 										<div class="d-flex align-items-center">
 											<div class="symbol symbol-70px me-3 ">
@@ -202,6 +249,11 @@
 									<!--end::Qty-->
 								</tr>
 								<tr>
+									<td>
+										<div class="form-check form-check-sm form-check-custom form-check-solid">
+											<input class="form-check-input widget-9-check" type="checkbox" value="1" />
+										</div>
+									</td>
 									<td>
 										<div class="d-flex align-items-center">
 											<div class="symbol symbol-70px me-3 ">
@@ -285,12 +337,12 @@
 			<!--begin::Modal header-->
 			<!--begin::Heading-->
 			<div class="my-5 text-center">
-						<!--begin::Title-->
-						<h1 class="mb-3">Add Vehicle Mentainence</h1>
-						<!--end::Title-->
+				<!--begin::Title-->
+				<h1 class="mb-3">Add Vehicle Mentainence</h1>
+				<!--end::Title-->
 
-					</div>
-					<!--end::Heading-->
+			</div>
+			<!--end::Heading-->
 
 			<!--begin::Modal body-->
 			<div class="modal-body  pt-0 ">
@@ -320,7 +372,7 @@
 										</label>
 										<!--end::Label-->
 										<!--begin::Select-->
-										<select  data-control="select2"  data-placeholder=" Select Vehicle" class="form-select form-select-solid"   data-control="select2" data-dropdown-parent="#kt_modal_new_address" name="Vehicle">
+										<select data-control="select2" data-placeholder=" Select Vehicle" class="form-select form-select-solid" data-control="select2" data-dropdown-parent="#kt_modal_new_address" name="Vehicle">
 											<option value="">Select a Vehicle...</option>
 											<option value="AF">Honda </option>
 											<option value="AF">TOyota</option>
@@ -339,7 +391,7 @@
 										</label>
 										<!--end::Label-->
 										<!--begin::Select-->
-										<select data-placeholder="Select Employee" class="form-select form-select-solid"  name="Employee" data-control="select2" data-dropdown-parent="#kt_modal_new_address">
+										<select data-placeholder="Select Employee" class="form-select form-select-solid" name="Employee" data-control="select2" data-dropdown-parent="#kt_modal_new_address">
 											<option value="">Select Employee...</option>
 											<option value="AF">Sam </option>
 											<option value="AF">Tom Cruz</option>
@@ -362,7 +414,7 @@
 										</label>
 										<!--end::Label-->
 										<!--begin::Select-->
-										<select   name="Mentainence" data-control="select2" data-dropdown-parent="#kt_modal_new_address"data-placeholder="Select a Mentainence Type" class="form-select form-select-solid">
+										<select name="Mentainence" data-control="select2" data-dropdown-parent="#kt_modal_new_address" data-placeholder="Select a Mentainence Type" class="form-select form-select-solid">
 											<option value="">Select a Fuel Type...</option>
 											<option value="AF">Oil And Filter</option>
 											<option value="AF">Tyres check </option>
@@ -387,7 +439,7 @@
 									<!--end::Input-->
 								</div>
 
-								
+
 
 								<!--end::Col-->
 							</div>
@@ -409,10 +461,10 @@
 										<span class="required">Garage</span>
 									</label>
 									<!--end::Label-->
-									<input type="text" class="form-control form-control-solid" placeholder="Enter Garage" name="Garage"  />
+									<input type="text" class="form-control form-control-solid" placeholder="Enter Garage" name="Garage" />
 								</div>
 
-								
+
 
 							</div>
 							<!--end::Input group-->
@@ -1022,6 +1074,8 @@
 @endsection
 
 @section('extra_scripts')
+<script src="{{ asset('static/js/custom/apps/projects/project/project2.js') }}"></script>
+
 
 /
 

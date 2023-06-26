@@ -34,7 +34,7 @@ var KTModalDriver = (function () {
                         KTModalDriver_target_tags: {
                             validators: {
                                 notEmpty: {
-                                    message: "Target tags are required",
+                                    message: "Areas are required",
                                 },
                             },
                         },
@@ -132,6 +132,11 @@ var KTModalDriver = (function () {
                 $("#employee").change(function () {
                     // Revalidate the field when an option is chosen
                     n.revalidateField('KTModalDriver_Employee1');
+                });
+
+                $("#kt_tagify_users").change(function () {
+                    // Revalidate the field when an option is chosen
+                    n.revalidateField('KTModalDriver_target_tags');
                 });
         },
     };

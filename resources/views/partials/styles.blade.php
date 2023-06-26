@@ -6,12 +6,19 @@
 <!--end::Page Vendor Stylesheets-->
 <!--begin::Global Stylesheets Bundle(used by all pages)-->
 <link href="{{ asset('static/plugins/global/plugins.bundle.css') }}" rel="stylesheet" type="text/css" />
-<link href="{{ asset('static/plugins/global/plugins.bundle.css') }}" rel="stylesheet" type="text/css" />
 <link href="{{ asset('static/css/style.bundle.css') }}" rel="stylesheet" type="text/css" />
 <link href="{{ asset('static/plugins/custom/datatables/datatables.bundle.css') }}" rel="stylesheet" type="text/css" />
 
 <link href="{{ asset('static/media/logos/favicon.ico') }}" rel="stylesheet" type="text/css" />
 <link rel="canonical" href="https://preview.keenthemes.com/metronic8" />
 <link href="{{ asset('static/css/style.bundle.css') }}" rel="stylesheet" type="text/css" />
-		
 
+<style>
+   .selected-tag {
+  display: inline-block;
+  padding: 5px;
+  margin: 5px;
+  background-color: lightblue;
+  border-radius: 4px;
+}
+  </style>

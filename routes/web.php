@@ -101,6 +101,11 @@ Route::get('Driver_timeline', function () {
 });
 
 
+Route::get('Driver_timeline_old', function () {
+    return view('old_timeline');
+});
+
+
 Route::get('Driver_Detail', function () {
     return view('Driver_Detail');
 });

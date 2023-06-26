@@ -67,11 +67,6 @@
 									<th class="text-end min-w-100px">Fuel Date</th>
 									<th class="text-end min-w-100px">Fuel Cost</th>
 									<th class="text-end min-w-100px">Supplier</th>
-
-
-
-
-
 									<th class="text-end">Notes</th>
 								</tr>
 								<!--end::Table row-->
@@ -121,12 +116,7 @@
 
 								</tr>
 
-								</tr>
-
-
-
-								</tr>
-
+								
 
 
 								<tr>
