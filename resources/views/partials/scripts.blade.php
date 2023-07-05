@@ -20,7 +20,6 @@ var hostUrl = "assets/";
 <script src="{{ asset('static/js/custom/widgets.js') }}"></script>
 <script src="{{ asset('static/js/custom/utilities/modals/create-app.js') }}"></script>
 <script src="{{ asset('static/js/custom/apps/projects/project/project.js') }}"></script>
-<script src="{{ asset('static/js/custom/apps/projects/project/project1.js') }}"></script>
 <script src="{{ asset('static/js/custom/apps/projects/project/project2.js') }}"></script>
 
 

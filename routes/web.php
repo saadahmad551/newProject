@@ -116,6 +116,11 @@ Route::get('Driver_Detail_LOG', function () {
 });
 
 
+Route::get('/', function () {
+    return view('Settings');
+});
+
+
 
 
 //Route::group(['prefix' => '/test'], function () {
