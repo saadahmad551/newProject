@@ -359,6 +359,152 @@
                                             <span class="menu-title">Add Fleet</span>
                                         </a>
                                     </div>
+
+                                    <div class="menu-item">
+                                        <a class="menu-link" href="Driver">
+                                            <span class="menu-bullet">
+                                                <span class="bullet bullet-dot"></span>
+                                            </span>
+                                            <span class="menu-title">Drivers</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="menu-item">
+                                        <a class="menu-link" href="ViewFleet">
+                                            <span class="menu-bullet">
+                                                <span class="bullet bullet-dot"></span>
+                                            </span>
+                                            <span class="menu-title">View Fleet</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="menu-item">
+                                        <a class="menu-link" href="Driver_timeline_old">
+                                            <span class="menu-bullet">
+                                                <span class="bullet bullet-dot"></span>
+                                            </span>
+                                            <span class="menu-title">Vehicle Timeline</span>
+                                        </a>
+                                    </div>
+
+
+
+                                    <div data-kt-menu-trigger="click" class="menu-item menu-accordion">
+                                        <span class="menu-link">
+                                            <span class="menu-bullet">
+                                                <span class="bullet bullet-dot"></span>
+                                            </span>
+                                            <span class="menu-title"> Setup </span>
+                                            <span class="menu-arrow"></span>
+                                        </span>
+                                        <div class="menu-sub menu-sub-accordion menu-active-bg">
+
+                                            <div class="menu-item">
+                                                <a class="menu-link" href="vehicles_types">
+                                                    <span class="menu-bullet">
+                                                        <span class="bullet bullet-dot"></span>
+                                                    </span>
+                                                    <span class="menu-title">vehicles type</span>
+                                                </a>
+                                            </div>
+                                            <div class="menu-item">
+                                                <a class="menu-link" href="vehicles_types">
+                                                    <span class="menu-bullet">
+                                                        <span class="bullet bullet-dot"></span>
+                                                    </span>
+                                                    <span class="menu-title">vehicles Make</span>
+                                                </a>
+                                            </div>
+                                            <div class="menu-item">
+                                                <a class="menu-link" href="vehicles_types">
+                                                    <span class="menu-bullet">
+                                                        <span class="bullet bullet-dot"></span>
+                                                    </span>
+                                                    <span class="menu-title">vehicles Model</span>
+                                                </a>
+                                            </div>
+
+
+
+                                        </div>
+                                    </div>
+
+                                    <div data-kt-menu-trigger="click" class="menu-item menu-accordion">
+                                        <span class="menu-link">
+                                            <span class="menu-bullet">
+                                                <span class="bullet bullet-dot"></span>
+                                            </span>
+                                            <span class="menu-title">Mentainence</span>
+                                            <span class="menu-arrow"></span>
+                                        </span>
+                                        <div class="menu-sub menu-sub-accordion menu-active-bg">
+
+
+                                            <div class="menu-item">
+                                                <a class="menu-link" href="vehicles_Fuels">
+                                                    <span class="menu-bullet">
+                                                        <span class="bullet bullet-dot"></span>
+                                                    </span>
+                                                    <span class="menu-title">vehicles Fuel</span>
+                                                </a>
+                                            </div>
+                                            <div class="menu-item">
+                                                <a class="menu-link" href="vehicles_mentainance">
+                                                    <span class="menu-bullet">
+                                                        <span class="bullet bullet-dot"></span>
+                                                    </span>
+                                                    <span class="menu-title">vehicles Mentainence</span>
+                                                </a>
+                                            </div>
+
+
+                                        </div>
+                                    </div>
+
+
+
+
+
+
+                                </div>
+
+                                <div class="menu-sub menu-sub-accordion menu-active-bg" style="display: none; overflow: hidden;">
+                                    <div class="menu-item">
+                                        <a class="menu-link" href="/Fleet">
+                                            <span class="menu-bullet">
+                                                <span class="bullet bullet-dot"></span>
+                                            </span>
+                                            <span class="menu-title">Fleet Dashboard</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="menu-item">
+                                        <a class="menu-link" href="Fleet_detail">
+                                            <span class="menu-bullet">
+                                                <span class="bullet bullet-dot"></span>
+                                            </span>
+                                            <span class="menu-title">Fleet Detail</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="menu-item">
+                                        <a class="menu-link" href="add_Fleet">
+                                            <span class="menu-bullet">
+                                                <span class="bullet bullet-dot"></span>
+                                            </span>
+                                            <span class="menu-title">Add Fleet</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="menu-item">
+                                        <a class="menu-link" href="Driver">
+                                            <span class="menu-bullet">
+                                                <span class="bullet bullet-dot"></span>
+                                            </span>
+                                            <span class="menu-title">Drivers</span>
+                                        </a>
+                                    </div>
+                                    
                                     <div class="menu-item">
                                         <a class="menu-link" href="ViewFleet">
                                             <span class="menu-bullet">
@@ -372,7 +518,7 @@
                                             <span class="menu-bullet">
                                                 <span class="bullet bullet-dot"></span>
                                             </span>
-                                            <span class="menu-title">Fleet Setup</span>
+                                            <span class="menu-title">Mentainence</span>
                                             <span class="menu-arrow"></span>
                                         </span>
                                         <div class="menu-sub menu-sub-accordion menu-active-bg">
@@ -417,18 +563,10 @@
                                                     <span class="menu-title">vehicles Mentainence</span>
                                                 </a>
                                             </div>
-                                            <div class="menu-item">
-                                                <a class="menu-link" href="Driver">
-                                                    <span class="menu-bullet">
-                                                        <span class="bullet bullet-dot"></span>
-                                                    </span>
-                                                    <span class="menu-title">Drivers</span>
-                                                </a>
-                                            </div>
+
 
                                         </div>
                                     </div>
-
 
                                 </div>
                             </div>
@@ -849,9 +987,9 @@
                 <path d="M15 8H20L14 2V7C14 7.6 14.4 8 15 8Z" fill="currentColor" />
             </svg>
         </span>
-        <!-- end::Svg Icon--> -->
+        <!-- end::Svg Icon-->
         </a>
-    </div> -->
+    </div>
     <!--end::Footer-->
     @show
     </div>
@@ -859,7 +997,7 @@
     <!--begin::Wrapper-->
     <div class="wrapper d-flex flex-column flex-row-fluid" id="kt_wrapper">
         <!--begin::Header-->
-        <div id="kt_header"  class="header align-items-stretch">
+        <div id="kt_header" class="header align-items-stretch">
             <!--begin::Container-->
             <div class="container-fluid d-flex align-items-stretch justify-content-between">
                 <!--begin::Aside mobile toggle-->

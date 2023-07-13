@@ -12,6 +12,7 @@
 <link href="{{ asset('static/media/logos/favicon.ico') }}" rel="stylesheet" type="text/css" />
 <link rel="canonical" href="https://preview.keenthemes.com/metronic8" />
 <link href="{{ asset('static/css/style.bundle.css') }}" rel="stylesheet" type="text/css" />
+<link href="https://cdn.jsdelivr.net/npm/ni@1.1.0/dist/ni.min.css" rel="stylesheet">
 
 <style>
    .selected-tag {
@@ -22,3 +23,19 @@
   border-radius: 4px;
 }
   </style>
+  <style>
+    .lifted-image {
+        margin-top: -105px;
+        position: relative;
+        /* Adjust the value to lift the image higher or lower */
+    }
+
+    @media (max-width: 768px) {
+        .lifted-image {
+            margin-top: -5px;
+            /* Adjust the value for smaller screens */
+        }
+    }
+</style>
+
+  
